@@ -1,30 +1,96 @@
 main:
-  - title: Search The Docs
+  - title: Docs
     url: /
-  - title: 🤍 Subscribe/Follow On Patreon
+  - title:
+  - title:
+  - title: 🤍 patreon.com/everlaster
     url: https://www.patreon.com/everlaster/membership
 
-plugins: &plugins
-  - title: Naturalis
+plugins_config:
+  naturalis: &naturalis
+    title: Naturalis
     url: /docs/naturalis/v1_0
-  - title: VarLicenseFilter
+  var_license_filter: &var_license_filter
+    title: Var License Filter
     url: /docs/var-license-filter/v1_0
-  - title: TittyMagic
+  tittymagic: &tittymagic
+    title: TittyMagic
     url: /docs/tittymagic/v5_2
-  - title: JointCorrectEE
+  joint_correct_ee: &joint_correct_ee
+    title: Joint Correct EE
     url: /docs/joint-correct-ee/v1_0
-  - title: FloatParamRandomizerEE
+  float_param_randomizer_ee: &float_param_randomizer_ee
+    title: Float Param Randomizer EE
     url: /docs/float-param-randomizer-ee/v1_0
-  - title: HairLetLoose
+  hair_let_loose: &hair_let_loose
+    title: Hair Let Loose
     url: /docs/hair-let-loose/v1_0
-  - title: MocapSwitcher
+  mocap_switcher: &mocap_switcher
+    title: Mocap Switcher
     url: /docs/mocap-switcher/v1_2
-  - title: Lumination
+  lumination: &lumination
+    title: Lumination
     url: /docs/lumination/v1_0
-  - title: LiveReload
+  live_reload: &live_reload
+    title: Live Reload
     url: /docs/live-reload/v1_0
-  - title: Other
+  other: &other
+    title: Other
     url: /docs/other
+
+naturalis_with_children: &naturalis_with_children
+  <<: *naturalis
+  children:
+    - title: Home
+      url: /docs/naturalis/v1_0
+    - title: Subpage 1
+      url: /docs/naturalis/v1_0/subpage1
+    - title: Subpage 2
+      url: /docs/naturalis/v1_0/subpage2
+
+tittymagic_with_children: &tittymagic_with_children
+  <<: *tittymagic
+  children:
+    - title: Home
+      url: /docs/tittymagic/v5_2
+    - title: Subpage 1
+      url: /docs/tittymagic/v5_2/subpage1
+    - title: Subpage 2
+      url: /docs/tittymagic/v5_2/subpage2
+
+plugins: &plugins
+  - *naturalis
+  - *var_license_filter
+  - *tittymagic
+  - *joint_correct_ee
+  - *float_param_randomizer_ee
+  - *hair_let_loose
+  - *mocap_switcher
+  - *lumination
+  - *live_reload
+  - *other
+
+plugins_naturalis: &plugins_naturalis
+  - *naturalis_with_children
+  - *var_license_filter
+  - *tittymagic
+  - *joint_correct_ee
+  - *float_param_randomizer_ee
+  - *hair_let_loose
+  - *mocap_switcher
+  - *lumination
+  - *live_reload
+
+plugins_tittymagic: &plugins_tittymagic
+  - *naturalis
+  - *var_license_filter
+  - *tittymagic_with_children
+  - *joint_correct_ee
+  - *float_param_randomizer_ee
+  - *hair_let_loose
+  - *mocap_switcher
+  - *lumination
+  - *live_reload
 
 naturalis_versions: &naturalis_versions
   - title: v1.0
@@ -68,7 +134,7 @@ docs:
 
 docs_naturalis:
   - title: Plugins
-    children: *plugins
+    children: *plugins_naturalis
   - title: Naturalis Versions
     children: *naturalis_versions
 
@@ -80,7 +146,7 @@ docs_var_license_filter:
 
 docs_tittymagic:
   - title: Plugins
-    children: *plugins
+    children: *plugins_tittymagic
   - title: TittyMagic Versions
     children: *tittymagic_versions
 

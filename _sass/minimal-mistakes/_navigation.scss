@@ -452,6 +452,19 @@
     font-weight: bold;
   }
 
+  .subchild {
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .subchild-active {
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+  }
+
   @include breakpoint(max-width $large - 1px) {
     position: relative;
     max-height: 0;
