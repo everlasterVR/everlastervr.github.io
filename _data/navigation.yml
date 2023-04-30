@@ -8,31 +8,31 @@ main:
 
 plugins_config:
   naturalis: &naturalis
-    title: Naturalis
+    title: Naturalis v1.0
     url: /docs/naturalis/v1_0
   var_license_filter: &var_license_filter
-    title: Var License Filter
+    title: Var License Filter v1.0
     url: /docs/var-license-filter/v1_0
   tittymagic: &tittymagic
-    title: TittyMagic
+    title: TittyMagic v5.2
     url: /docs/tittymagic/v5_2
   joint_correct_ee: &joint_correct_ee
-    title: Joint Correct EE
+    title: Joint Correct EE v1.0
     url: /docs/joint-correct-ee/v1_0
   float_param_randomizer_ee: &float_param_randomizer_ee
-    title: Float Param Randomizer EE
+    title: Float Param Randomizer EE v1.0
     url: /docs/float-param-randomizer-ee/v1_0
   hair_let_loose: &hair_let_loose
-    title: Hair Let Loose
+    title: Hair Let Loose v1.0
     url: /docs/hair-let-loose/v1_0
   mocap_switcher: &mocap_switcher
-    title: Mocap Switcher
+    title: Mocap Switcher v1.2
     url: /docs/mocap-switcher/v1_2
   lumination: &lumination
-    title: Lumination
+    title: Lumination v1.0
     url: /docs/lumination/v1_0
   live_reload: &live_reload
-    title: Live Reload
+    title: Live Reload v1.0
     url: /docs/live-reload/v1_0
   other: &other
     title: Other
@@ -92,41 +92,41 @@ plugins_tittymagic: &plugins_tittymagic
   - *lumination
   - *live_reload
 
-naturalis_versions: &naturalis_versions
-  - title: v1.0
-    url: /docs/naturalis/v1_0
+# naturalis_versions: &naturalis_versions
+#   - title: v1.0
+#     url: /docs/naturalis/v1_0
 
-var_license_filter_versions: &var_license_filter_versions
-  - title: v1.0
-    url: /docs/var-license-filter/v1_0
+# var_license_filter_versions: &var_license_filter_versions
+#   - title: v1.0
+#     url: /docs/var-license-filter/v1_0
 
-tittymagic_versions: &tittymagic_versions
-  - title: v5.2
-    url: /docs/tittymagic/v5_2
+# tittymagic_versions: &tittymagic_versions
+#   - title: v5.2
+#     url: /docs/tittymagic/v5_2
 
-joint_correct_ee_versions: &joint_correct_ee_versions
-  - title: v1.0
-    url: /docs/joint-correct-ee/v1_0
+# joint_correct_ee_versions: &joint_correct_ee_versions
+#   - title: v1.0
+#     url: /docs/joint-correct-ee/v1_0
 
-float_param_randomizer_ee_versions: &float_param_randomizer_ee_versions
-  - title: v1.0
-    url: /docs/float-param-randomizer-ee/v1_0
+# float_param_randomizer_ee_versions: &float_param_randomizer_ee_versions
+#   - title: v1.0
+#     url: /docs/float-param-randomizer-ee/v1_0
 
-hair_let_loose_versions: &hair_let_loose_versions
-  - title: v1.0
-    url: /docs/hair-let-loose/v1_0
+# hair_let_loose_versions: &hair_let_loose_versions
+#   - title: v1.0
+#     url: /docs/hair-let-loose/v1_0
 
-mocap_switcher_versions: &mocap_switcher_versions
-  - title: v1.2
-    url: /docs/mocap-switcher/v1_2
+# mocap_switcher_versions: &mocap_switcher_versions
+#   - title: v1.2
+#     url: /docs/mocap-switcher/v1_2
 
-lumination_versions: &lumination_versions
-  - title: v1.0
-    url: /docs/lumination/v1_0
+# lumination_versions: &lumination_versions
+#   - title: v1.0
+#     url: /docs/lumination/v1_0
 
-live_reload_versions: &live_reload_versions
-  - title: v1.0
-    url: /docs/live-reload/v1_0
+# live_reload_versions: &live_reload_versions
+#   - title: v1.0
+#     url: /docs/live-reload/v1_0
 
 docs:
   - title: Plugins
@@ -135,53 +135,53 @@ docs:
 docs_naturalis:
   - title: Plugins
     children: *plugins_naturalis
-  - title: Naturalis Versions
-    children: *naturalis_versions
+  # - title: Naturalis Versions
+  #   children: *naturalis_versions
 
 docs_var_license_filter:
   - title: Plugins
     children: *plugins
-  - title: Var License Filter Versions
-    children: *var_license_filter_versions
+  # - title: Var License Filter Versions
+  #   children: *var_license_filter_versions
 
 docs_tittymagic:
   - title: Plugins
     children: *plugins_tittymagic
-  - title: TittyMagic Versions
-    children: *tittymagic_versions
+  # - title: TittyMagic Versions
+  #   children: *tittymagic_versions
 
 docs_joint_correct_ee:
   - title: Plugins
     children: *plugins
-  - title: Joint Correct EE Versions
-    children: *joint_correct_ee_versions
+  # - title: Joint Correct EE Versions
+  #   children: *joint_correct_ee_versions
 
 docs_float_param_randomizer_ee:
   - title: Plugins
     children: *plugins
-  - title: Float Param Randomizer EE Versions
-    children: *float_param_randomizer_ee_versions
+  # - title: Float Param Randomizer EE Versions
+  #   children: *float_param_randomizer_ee_versions
 
 docs_hair_let_loose:
   - title: Plugins
     children: *plugins
-  - title: Hair Let Loose Versions
-    children: *hair_let_loose_versions
+  # - title: Hair Let Loose Versions
+  #   children: *hair_let_loose_versions
 
 docs_mocap_switcher:
   - title: Plugins
     children: *plugins
-  - title: Mocap Switcher Versions
-    children: *mocap_switcher_versions
+  # - title: Mocap Switcher Versions
+  #   children: *mocap_switcher_versions
 
 docs_lumination:
   - title: Plugins
     children: *plugins
-  - title: Lumination Versions
-    children: *lumination_versions
+  # - title: Lumination Versions
+  #   children: *lumination_versions
 
 docs_live_reload:
   - title: Plugins
     children: *plugins
-  - title: Live Reload Versions
-    children: *live_reload_versions
+  # - title: Live Reload Versions
+  #   children: *live_reload_versions
