@@ -318,3 +318,4 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+      toc_sticky: true
