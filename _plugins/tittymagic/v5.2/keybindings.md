@@ -20,4 +20,4 @@ TittyMagic has support for some actions to be triggered with [Keybindings](https
 | `TittyMagic.AutoUpdateMassOn` | enables Auto-Update Mass |
 | `TittyMagic.AutoUpdateMassOff` | disables Auto-Update Mass |
 | `TittyMagic.CalculateBreastMass` | triggers recalibration and calculates breast mass |
-| `TittyMagic.RecalibratePhysics` | triggers recalibration |
+| `TittyMagic.CalibratePhysicsAndMorphs` | triggers recalibration |

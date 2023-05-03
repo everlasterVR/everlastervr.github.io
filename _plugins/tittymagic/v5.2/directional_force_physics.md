@@ -7,9 +7,15 @@ sidebar:
 parent_url: /docs/tittymagic/v5_2
 ---
 
-Some physics settings are adjusted dynamically when the breast's depth changes. That change is primarily caused by [Directional Force Morphing](Directional-Force-Morphing).
+Some physics settings are adjusted dynamically when the breast's depth changes.
 
-This feature is currently not configurable in the plugin UI, although there are multipliers (`forcePhysicsBase`, `forcePhysicsForward` and `forcePhysicsBack`) that are exposed to triggers which could be used to adjust the magnitude of the effect. You can observe the effect in the physics parameter's view in the Physics Params tab when the breast is moving.
+This feature is currently not configurable in the plugin UI, although there are multipliers that are exposed to triggers which could be used to adjust the magnitude of the effect. You can observe the effect in the physics parameter's view in the Physics Params tab when the breast is moving.
+
+| Triggerable parameter |
+|-----------------------|
+| `forceMorphingBase`   |
+| `forcePhysicsForward` |
+| `forcePhysicsBack`    |
 
 ### Center of Gravity
 

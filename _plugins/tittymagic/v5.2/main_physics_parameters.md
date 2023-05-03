@@ -7,9 +7,13 @@ sidebar:
 parent_url: /docs/tittymagic/v5_2
 ---
 
-Main Physics Parameters include all of the adjustable settings from the Person atom's F Breast Physics 1 tab. In addition, TittyMagic exposes a Twist Angle Target parameter which is the Z axis equivalent of the Up/Down and Left/Right angle targets.
+Main Physics Parameters include all of the adjustable settings from the Person atom's F Breast Physics 1 tab. Every physics parameter can be adjusted with an offset from the automatically calculated value.
+
+In addition, TittyMagic exposes a Twist Angle Target parameter which is the Z axis equivalent of the Up/Down and Left/Right angle targets.
 
 These settings are applied to the pectoral joint on the person atom. The pectoral joint is actually located quite far back inside the chest, but its center of gravity is moved towards the nipple to make it behave as a "breast joint". Realistically this doesn't make a lot of sense, but it's how it works in Virt-A-Mate.
+
+Every physics parameter can be adjusted with an offset from the automatically calculated value.
 
 > Enable the Apply Only To Left Breast checkbox to compare the manually adjusted value on the left breast to the automatically calculated value on the right breast. This makes it easy to check how the offset value affects the end result.
 
@@ -41,7 +45,7 @@ The higher the damper, the quicker breasts will stop swinging.
 
 Magnitude of the spring that pushes the pectoral joint towards its position target along the Z axis.
 
-[Directional force morphing](wiki/Directional-Force-Morphing) along the forward-back axis depends on In/Out Spring being suitably low for the given breast mass.
+Directional force morphing along the forward-back axis depends on In/Out Spring being suitably low for the given breast mass.
 
 ### In/Out Damper
 
@@ -51,7 +55,7 @@ Magnitude of the damper that reduces oscillation around the joint position targe
 
 Vertical target angle of the pectoral joint. Negative values pull breasts down, positive values push them up.
 
-The offset shifts the center around which the final angle is calculated based on chest angle (see [Breast Gravity](wiki/Breast-Gravity)).
+The offset shifts the center around which the final angle is calculated based on chest angle (see [Breast Gravity](/docs/tittymagic/v5_2/breast_gravity)).
 
 ### Right/Left Angle Target
 
@@ -61,4 +65,4 @@ A negative offset pulls breasts apart, while a positive offset pushes them toget
 
 ### Twist Angle Target
 
-Forward axis target angle of the pectoral joint.
+Forward axis target angle of the pectoral joint. The actual angle depends on the pectoral joint's vertical angle. When the person is horizontal, the twist angle is zeroed. When upside down, it is inverted. This prevents the issue where using the angle to cause breasts to poke more inward or outward would have the opposite effect when upside down.

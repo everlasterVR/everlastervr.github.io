@@ -7,7 +7,7 @@ sidebar:
 parent_url: /docs/tittymagic/v5_2
 ---
 
-Soft Physics Parameters include all of the adjustable settings from the Person atom's F Breast Physics 2 tab.
+Soft Physics Parameters include all of the adjustable settings from the Person atom's F Breast Physics 2 tab. Every physics parameter can be adjusted with an offset from the automatically calculated value.
 
 In normal VaM physics, only spring and damper can be adjusted separately for different sections of the breast. In TittyMagic, all soft physics parameters have Main, Outer, Areola and Nipple multipliers.
 
