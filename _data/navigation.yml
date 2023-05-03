@@ -53,10 +53,26 @@ tittymagic_with_children: &tittymagic_with_children
   children:
     - title: Home
       url: /docs/tittymagic/v5_2
-    - title: Subpage 1
-      url: /docs/tittymagic/v5_2/subpage1
-    - title: Subpage 2
-      url: /docs/tittymagic/v5_2/subpage2
+    - title: Softness, Quickness and Mass
+      url: /docs/tittymagic/v5_2/softness_quickness_and_mass
+    - title: Main Physics Parameters
+      url: /docs/tittymagic/v5_2/main_physics_parameters
+    - title: Soft Physics Parameters
+      url: /docs/tittymagic/v5_2/soft_physics_parameters
+    - title: Directional Force Morphing
+      url: /docs/tittymagic/v5_2/directional_force_morphing
+    - title: Directional Force Physics
+      url: /docs/tittymagic/v5_2/directional_force_physics
+    - title: Breast Gravity
+      url: /docs/tittymagic/v5_2/breast_gravity
+    - title: Breast Hard Colliders
+      url: /docs/tittymagic/v5_2/breast_hard_colliders
+    - title: Collider Friction
+      url: /docs/tittymagic/v5_2/collider_friction
+    - title: Keybindings
+      url: /docs/tittymagic/v5_2/keybindings
+    - title: Help and Troubleshooting
+      url: /docs/tittymagic/v5_2/help_and_troubleshooting
 
 plugins: &plugins
   - *naturalis
@@ -128,60 +144,86 @@ plugins_tittymagic: &plugins_tittymagic
 #   - title: v1.0
 #     url: /docs/live-reload/v1_0
 
+general: &general
+  - title: Physics Rate and Frame Rate
+    url: /docs/general/physics_rate_and_frame_rate
+  - title: Using Plugin Presets
+    url: /docs/general/using_plugin_presets
+
 docs:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
 
 docs_naturalis:
   - title: Plugins
     children: *plugins_naturalis
+  - title: General
+    children: *general
   # - title: Naturalis Versions
   #   children: *naturalis_versions
 
 docs_var_license_filter:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Var License Filter Versions
   #   children: *var_license_filter_versions
 
 docs_tittymagic:
   - title: Plugins
     children: *plugins_tittymagic
+  - title: General
+    children: *general
   # - title: TittyMagic Versions
   #   children: *tittymagic_versions
 
 docs_joint_correct_ee:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Joint Correct EE Versions
   #   children: *joint_correct_ee_versions
 
 docs_float_param_randomizer_ee:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Float Param Randomizer EE Versions
   #   children: *float_param_randomizer_ee_versions
 
 docs_hair_let_loose:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Hair Let Loose Versions
   #   children: *hair_let_loose_versions
 
 docs_mocap_switcher:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Mocap Switcher Versions
   #   children: *mocap_switcher_versions
 
 docs_lumination:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Lumination Versions
   #   children: *lumination_versions
 
 docs_live_reload:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
   # - title: Live Reload Versions
   #   children: *live_reload_versions
