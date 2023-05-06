@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Breast Gravity"
-permalink: /docs/tittymagic/v5_2/breast_gravity
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 Breast Gravity is the adjustment of a few physics parameters based on the angle of the breast joint relative to ground, i.e. relative to the direction of gravity.
 
 ![5_2_breast_gravity.png](/assets/screens/tittymagic/5_2_breast_gravity.png)

@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Main Physics Parameters"
-permalink: /docs/tittymagic/v5_2/main_physics_parameters
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 Main Physics Parameters include all of the adjustable settings from the Person atom's F Breast Physics 1 tab. Every physics parameter can be adjusted with an offset from the automatically calculated value.
 
 In addition, TittyMagic exposes a Twist Angle Target parameter which is the Z axis equivalent of the Up/Down and Left/Right angle targets.

@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Keybindings"
-permalink: /docs/tittymagic/v5_2/keybindings
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 TittyMagic has support for some actions to be triggered with [Keybindings](https://hub.virtamate.com/resources/keybindings.4400/). I highly recommend this plugin when in desktop mode - the Find Command binding allows quickly accessing any other bindable command.
 
 | Command | Description |

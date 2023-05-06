@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Softness, Quickness and Mass"
-permalink: /docs/tittymagic/v5_2/softness_quickness_and_mass
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 These settings are intended as easy and intuitive ways to change how the breasts should behave. They adjust many different settings in the background, from physics parameter values and collider properties to how much of each morph value will be applied and how gravity affects breasts.
 
 ### Softness

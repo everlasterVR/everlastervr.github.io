@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Collider Friction"
-permalink: /docs/tittymagic/v5_2/collider_friction
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 All colliders, including soft physics colliders, have a friction setting that can be adjusted programmatically between 0 and 1. By default in Virt-A-Mate, colliders have a friction of 0.600.
 
 Low collider friction can be used to make breasts slippery to collision with hands, other parts of the body or other objects. High collider friction will make breasts more sticky.

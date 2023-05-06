@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Directional Force Physics"
-permalink: /docs/tittymagic/v5_2/directional_force_physics
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 Some physics settings are adjusted dynamically when the breast's depth changes.
 
 This feature is currently not configurable in the plugin UI, although there are multipliers that are exposed to triggers which could be used to adjust the magnitude of the effect. You can observe the effect in the physics parameter's view in the Physics Params tab when the breast is moving.

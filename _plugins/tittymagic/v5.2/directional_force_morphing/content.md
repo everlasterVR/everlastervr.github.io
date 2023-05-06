@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Directional Force Morphing"
-permalink: /docs/tittymagic/v5_2/directional_force_morphing
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 Directional Force Morphing applies morphs based on the direction that the breast moves. The amount of adjustment for each morph depends on breast mass, softness, how much the the breast's position deviates from its neutral position, and on the multipliers in the Morph Multipliers tab.
 
 ![5_2_directional_force_morphing.png](/assets/screens/tittymagic/5_2_directional_force_morphing.png)

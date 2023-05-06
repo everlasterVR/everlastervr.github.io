@@ -114,6 +114,14 @@ body {
   li,
   dl {
     font-size: 0.75em;
+
+    li {
+      font-size: 0.88em;
+
+      li {
+        font-size: 0.88em;
+      }
+    }
   }
 
   /* paragraph indents */
@@ -574,5 +582,20 @@ body {
     @include breakpoint($x-large) {
       padding-right: 0;
     }
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    border: none
   }
 }

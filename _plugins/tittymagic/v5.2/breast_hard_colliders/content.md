@@ -1,12 +1,3 @@
----
-title: "TittyMagic v5.2: Breast Hard Colliders"
-permalink: /docs/tittymagic/v5_2/breast_hard_colliders
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
 Breast hard colliders in TittyMagic are the same five colliders per breast as those used by standard Virt-A-Mate breast physics. TittyMagic just adjusts their properties automatically when physics is calibrated, and exposes configuration options in the Configure Hard Colliders view.
 
 Hard colliders are always enabled when TittyMagic is active.

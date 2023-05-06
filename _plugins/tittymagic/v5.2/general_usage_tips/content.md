@@ -1,13 +1,4 @@
----
-title: "TittyMagic v5.2: General Usage Tips"
-permalink: /docs/tittymagic/v5_2/general_usage_tips
-excerpt: ""
-sidebar:
-  nav: docs_tittymagic
-parent_url: /docs/tittymagic/v5_2
----
-
-## Breast morphs to use with the plugin
+## Breast Morphs To Use
 
 While you can use any breast morphs with TittyMagic, the plugin doesn't know how to compensate for morphs that expand directionally. A lot of breast morphs expand downward - they have "gravity" built in to the morph. For example, all of the Breasts Shape 01 to Breasts Shape 08 morphs expand mostly downward. Generally, it's best to use morphs that expand more equally in all directions, so that breasts will also look better when the character is leaning in different directions or upside down. Examples: Breasts Size, Breast large, diameter morphs, negative values on breast size reduction morphs.
 

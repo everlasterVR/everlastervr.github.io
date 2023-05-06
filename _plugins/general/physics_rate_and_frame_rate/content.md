@@ -1,13 +1,3 @@
----
-title: "Physics Rate and Frame Rate"
-permalink: /docs/general/physics_rate_and_frame_rate
-excerpt: ""
-redirect_from:
-  - /docs/general/
-sidebar:
-  nav: docs
----
-
 A stable frame rate that is synchronized with the physics rate is essential for smooth looking animation, especially when it comes to the animation of morphs by plugins such as Naturalis and TittyMagic. When frame rate and physics rate are out of sync, animation can look jittery and choppy, although it is subjective how noticeable that is. Additionally, low frame rate can cause physics to slow down.
 
 In VR, frame rate is automatically synced with the headset's refresh rate. In desktop mode, it is highly recommended to limit the frame rate either by using [VSync](https://hub.virtamate.com/wiki/user_preferences_performance/) or with [FrameRateControl](https://hub.virtamate.com/resources/macgruber-essentials.160/) by MacGruber.

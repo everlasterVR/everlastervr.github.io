@@ -1,16 +1,3 @@
----
-title: "TittyMagic v5.2"
-permalink: /docs/tittymagic/v5_2
-excerpt: ""
-redirect_from:
-  - /docs/titty-magic/
-  - /docs/tittymagic/
-  - /tittymagic/
-  - /titty-magic/
-sidebar:
-  nav: docs_tittymagic
----
-
 Virt-A-Mate Hub: <https://hub.virtamate.com/resources/tittymagic.4067/> ([version history](https://hub.virtamate.com/resources/tittymagic.4067/history))
 
 TittyMagic controls physics parameters, morphs and colliders automatically. Some values are controlled continuously, others are set once per calibration. The automatic adjustments have been carefully fine tuned with each other so that the resulting behavior for different softness and quickness values makes sense for a wide range of breast sizes.
