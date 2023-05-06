@@ -4,10 +4,24 @@ TittyMagic is made obsolete by [Naturalis](/docs/naturalis) which includes Booty
 
 ## Getting Started
 
-Save the var package to VAM/AddonPackages. In VAM, add the plugin to a Person atom's Plugins tab.
+[Install the package](/docs/general/installing_addon_packages), start VAM and add the plugin to a Person atom's Plugins tab.
 
 The plugin's default settings are intended to work well in most situations.
 
 Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate). Configure your setup correctly and you will get more out of the plugin!
 
-> **Unpacking the var package is not recommended**. The package includes morphs that are best loaded on demand when the plugin is actually used in the scene. Additionally, unpacking makes it impossible to properly use the plugin as a dependency for any looks or scenes you might release yourself.
+## Basic Usage: Softness, Quickness and Mass
+
+These settings are intended as easy and intuitive ways to change how the breasts should behave. They adjust many different settings in the background, from physics parameter values and collider properties to how much of each morph value will be applied and how gravity affects breasts.
+
+### Softness
+
+A low softness value makes breasts immobile and rigid, like implants. A high value simulates natural breasts.
+
+### Quickness
+
+Quickness is for tweaking the speed at which breasts respond to forces and bounce back to their normal shape and position. It only affects physics parameter values.
+
+### Mass
+
+Mass is calculated from an approximation of breast volume. Everything that depends on breast size uses breast mass as a multiplier one way or another, e.g. the sizes of hard colliders get scaled with breast mass, as do the the values of most physics parameters and morphs.
