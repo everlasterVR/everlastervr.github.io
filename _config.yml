@@ -101,7 +101,6 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   # name             : "everlaster"
@@ -188,14 +187,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -208,12 +205,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
@@ -221,13 +216,12 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
 
@@ -236,7 +230,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
 
@@ -268,7 +262,6 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -277,9 +270,9 @@ compress_html:
     envs: development
 
 collections:
-  plugins:
+  vam_plugins:
     output: true
-    permalink: /:collection/:path/
+    permalink: /docs/:name
 
 # Defaults
 defaults:
@@ -306,10 +299,10 @@ defaults:
       author_profile: false
       sidebar:
         nav: "docs"
-  # _plugins
+  # _vam_plugins
   - scope:
       path: ""
-      type: plugins
+      type: vam_plugins
     values:
       layout: single
       read_time: false
