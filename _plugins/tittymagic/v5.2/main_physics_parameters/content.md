@@ -2,7 +2,7 @@ Main Physics Parameters include all of the adjustable settings from the Person a
 
 In addition, TittyMagic exposes a Twist Angle Target parameter which is the Z axis equivalent of the Up/Down and Left/Right angle targets.
 
-These settings are applied to the pectoral joint on the person atom. The pectoral joint is actually located quite far back inside the chest, but its center of gravity is moved towards the nipple to make it behave as a "breast joint". Realistically this doesn't make a lot of sense, but it's how it works in Virt-A-Mate.
+These settings are applied to the pectoral joint on the person atom. The pectoral joint is actually located quite far back inside the chest, but its center of gravity is moved towards the nipple to make it behave as a "breast joint". Realistically this doesn't make a lot of sense, but it's how it works in VAM.
 
 Every physics parameter can be adjusted with an offset from the automatically calculated value.
 

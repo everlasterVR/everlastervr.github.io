@@ -1,4 +1,4 @@
-Presets for individual plugins can be saved and loaded using Virt-A-Mate's Plugin Presets functionality. However, since it's designed for managing the person atom's plugins as a group, the process for both saving and loading an individual plugin's preset is a bit awkward.
+Presets for individual plugins can be saved and loaded using VAM's Plugin Presets functionality. However, since it's designed for managing the person atom's plugins as a group, the process for both saving and loading an individual plugin's preset is a bit awkward.
 
 > This process is not needed with plugins which have a built-in preset system, e.g. [Naturalis](/docs/naturalis).
 

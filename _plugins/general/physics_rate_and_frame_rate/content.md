@@ -2,7 +2,7 @@ A stable frame rate that is synchronized with the physics rate is essential for 
 
 In VR, frame rate is automatically synced with the headset's refresh rate. In desktop mode, it is highly recommended to limit the frame rate either by using [VSync](https://hub.virtamate.com/wiki/user_preferences_performance/) or with [FrameRateControl](https://hub.virtamate.com/resources/macgruber-essentials.160/) by MacGruber.
 
-**Showing frame rate in Virt-A-Mate:** Enable Performance Monitor in User Preferences. If in Desktop mode, you can also use a third party tool such as NVIDIA's performance overlay or [Reshade](https://reshade.me/).
+**Showing frame rate in VAM:** Enable Performance Monitor in User Preferences. If in Desktop mode, you can also use a third party tool such as NVIDIA's performance overlay or [Reshade](https://reshade.me/).
 
 ## Physics Rate Options in User Preferences
 

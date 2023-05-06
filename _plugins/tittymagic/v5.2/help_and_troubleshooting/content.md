@@ -6,13 +6,13 @@ You are probably using another plugin that animates morphs in a way that is inco
 
 ### Breasts move too slowly
 
-A common reason for this is low frame rate. Movement can appear slow whenever frame rate is lower than physics rate. See [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate). For guides on improving frame rate in Virt-A-Mate, check [Guides (Virt-A-Mate Hub)](https://hub.virtamate.com/resources/categories/guides.13/).
+A common reason for this is low frame rate. Movement can appear slow whenever frame rate is lower than physics rate. See [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate). For guides on improving frame rate in VAM, check [Guides (Hub)](https://hub.virtamate.com/resources/categories/guides.13/).
 
 If breasts move slowly even with synced physics rate and frame rate, check that the softness slider value is not too low, and reset any offsets on Spring, Fat Spring and Fat Mass in the Physics Params tab.
 
 ### Soft physics is not working
 
-For breast soft physics to work, soft physics must be enabled in [User Preferences (Virt-A-Mate Hub)](https://hub.virtamate.com/wiki/user_preferences_performance/), on the Person atom itself in Control & Physics 1, and for breasts specifically in the plugin's Physics Params tab (or in F Breast Physics 1 before loading the plugin).
+For breast soft physics to work, soft physics must be enabled in [User Preferences (Hub)](https://hub.virtamate.com/wiki/user_preferences_performance/), on the Person atom itself in Control & Physics 1, and for breasts specifically in the plugin's Physics Params tab (or in F Breast Physics 1 before loading the plugin).
 
 Soft physics is also not supported on a male character.
 
@@ -53,6 +53,6 @@ Adjustment of morphs which have bone morphs can cause TittyMagic's breast morph 
 
 ### Plugins which adjust breast physics
 
-TittyMagic applies physics directly onto the person atom, bypassing the functionality in Virt-A-Mate's F Breast Physics 1 and F Breast Physics 2 tabs. For that reason, the content in those tabs is hidden - but the original physics settings are still exposed to triggers. Adjusting those original physics settings is not recommended while TittyMagic is active.
+TittyMagic applies physics directly onto the person atom, bypassing the functionality in VAM's F Breast Physics 1 and F Breast Physics 2 tabs. For that reason, the content in those tabs is hidden - but the original physics settings are still exposed to triggers. Adjusting those original physics settings is not recommended while TittyMagic is active.
 
 In addition, some parameters are updated by TittyMagic continuously, and any changes made by other sources to the original physics setting are ineffective. For example, Supa Additional Cloth Physics is not fully compatible for this reason.

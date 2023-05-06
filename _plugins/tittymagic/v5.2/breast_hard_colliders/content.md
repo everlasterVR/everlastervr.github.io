@@ -1,4 +1,4 @@
-Breast hard colliders in TittyMagic are the same five colliders per breast as those used by standard Virt-A-Mate breast physics. TittyMagic just adjusts their properties automatically when physics is calibrated, and exposes configuration options in the Configure Hard Colliders view.
+Breast hard colliders in TittyMagic are the same five colliders per breast as those used by standard VAM breast physics. TittyMagic just adjusts their properties automatically when physics is calibrated, and exposes configuration options in the Configure Hard Colliders view.
 
 Hard colliders are always enabled when TittyMagic is active.
 
