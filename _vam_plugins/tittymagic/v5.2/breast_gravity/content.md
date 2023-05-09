@@ -23,7 +23,7 @@ In/out spring decreases with forward and back gravity, i.e. when leaning forward
 
 ### Up/Down Angle Target
 
-Up/down angle target is negative when upright, causing breasts to get pulled down more heavily, and positive when upside down, causing them to be pulled more heavily.
+Up/down angle target is negative when upright, causing breasts to get pulled down more heavily, and positive when upside down, causing them to be pulled up more heavily.
 
 ### Left/Right Angle Target
 
