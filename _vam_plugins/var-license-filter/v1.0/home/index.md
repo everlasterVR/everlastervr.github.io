@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "VarLicenseFilter v1.0"
 permalink: /docs/var-license-filter/v1_0
 excerpt: ""
@@ -10,4 +10,4 @@ redirect_from:
 toc: true
 sidebar:
   nav: docs_var_license_filter
----
+--- -->

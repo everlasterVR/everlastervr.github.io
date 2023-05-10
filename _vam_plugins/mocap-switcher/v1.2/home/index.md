@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "MocapSwitcher v1.2"
 permalink: /docs/mocap-switcher/v1_2
 excerpt: ""
@@ -10,4 +10,4 @@ redirect_from:
 toc: true
 sidebar:
   nav: docs_mocap_switcher
----
+--- -->
