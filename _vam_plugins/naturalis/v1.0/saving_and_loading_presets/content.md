@@ -5,7 +5,7 @@ Presets specific to TittyMagic and BootyMagic can be saved and loaded in-plugin.
 | **BootyMagic** | Saves/PluginData/Naturalis/BootyMagicPresets |
 | **TittyMagic** | Saves/PluginData/Naturalis/TittyMagicPresets |
 
-For saving and loading overall plugin presets, see [General: Using Plugin Presets](/docs/general/using_plugin_presets).
+For saving and loading overall plugin presets, see [General: Using Plugin Presets](/docs/general/using_plugin_presets/).
 
 ### Loading Presets
 

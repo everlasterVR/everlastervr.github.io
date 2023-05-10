@@ -1,14 +1,14 @@
 Hub: <https://hub.virtamate.com/resources/tittymagic.4067/> (old versions: [version history](https://hub.virtamate.com/resources/tittymagic.4067/history))
 
-TittyMagic is made obsolete by [Naturalis](/docs/naturalis) which includes BootyMagic and a newer version of TittyMagic in a single package.
+TittyMagic is made obsolete by [Naturalis](/docs/naturalis/) which includes BootyMagic and a newer version of TittyMagic in a single package.
 
 ## Getting Started
 
-[Install the package](/docs/general/installing_addon_packages), start VAM and add the plugin to a Person atom's Plugins tab.
+[Install the package](/docs/general/installing_addon_packages/), start VAM and add the plugin to a Person atom's Plugins tab.
 
 The plugin's default settings are intended to work well in most situations.
 
-Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate). Configure your setup correctly and you will get more out of the plugin!
+Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate/). Configure your setup correctly and you will get more out of the plugin!
 
 ## Basic Usage: Softness, Quickness and Mass
 

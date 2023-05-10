@@ -1,10 +1,10 @@
 Physics parameters are divided into joint physics parameters and soft physics parameters.
 
-- All parameters can be manually [offset from the calculated value](/docs/naturalis/v1_0/physics_offsets)
-- Soft physics parameters can be [adjusted along a gradient](/docs/naturalis/v1_0/soft_physics_gradient)
-- Soft physics parameters support [local distortion physics](/docs/naturalis/v1_0/local_distortion_physics)
-- Some joint physics parameters have [gravity adjustments](/docs/naturalis/v1_0/gravity_physics) built in (soft physics parameters do not)
-- Parameter values are automatically calculated during [calibration](/docs/naturalis/v1_0/about_calibration)
+- All parameters can be manually [offset from the calculated value](/docs/naturalis/v1_0/physics_offsets/)
+- Soft physics parameters can be [adjusted along a gradient](/docs/naturalis/v1_0/soft_physics_gradient/)
+- Soft physics parameters support [local distortion physics](/docs/naturalis/v1_0/local_distortion_physics/)
+- Some joint physics parameters have [gravity adjustments](/docs/naturalis/v1_0/gravity_physics/) built in (soft physics parameters do not)
+- Parameter values are automatically calculated during [calibration](/docs/naturalis/v1_0/about_calibration/)
 
 ## BootyMagic
 

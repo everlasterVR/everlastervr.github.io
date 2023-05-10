@@ -1,4 +1,4 @@
-In Naturalis, soft physics parameters are controlled individually for each soft joint and collider. This allows the parameter values to be set along a smooth gradient from the outer edge of the glute or breast to the center. (It also makes [local distortion physics](/docs/naturalis/v1_0/local_distortion_physics) possible.)
+In Naturalis, soft physics parameters are controlled individually for each soft joint and collider. This allows the parameter values to be set along a smooth gradient from the outer edge of the glute or breast to the center. (It also makes [local distortion physics](/docs/naturalis/v1_0/local_distortion_physics/) possible.)
 
 The soft physics gradient works for all soft physics parameters except the three Fat Bk Force parameters.
 

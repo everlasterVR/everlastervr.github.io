@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: Breast Gravity"
-permalink: /docs/tittymagic/v5_2/breast_gravity
+permalink: /docs/tittymagic/v5_2/breast_gravity/
 excerpt: ""
 sidebar:
   nav: docs_tittymagic

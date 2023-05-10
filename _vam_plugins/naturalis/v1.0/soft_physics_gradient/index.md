@@ -1,6 +1,6 @@
 ---
 title: "Naturalis v1.0: Soft Physics Gradient"
-permalink: /docs/naturalis/v1_0/soft_physics_gradient
+permalink: /docs/naturalis/v1_0/soft_physics_gradient/
 excerpt: ""
 sidebar:
   nav: docs_naturalis

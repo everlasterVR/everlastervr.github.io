@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: Help and Troubleshooting"
-permalink: /docs/tittymagic/v5_2/help_and_troubleshooting
+permalink: /docs/tittymagic/v5_2/help_and_troubleshooting/
 excerpt: ""
 toc: true
 sidebar:

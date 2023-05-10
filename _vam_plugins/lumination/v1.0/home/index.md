@@ -1,6 +1,6 @@
 <!-- ---
 title: "Lumination v1.0"
-permalink: /docs/lumination/v1_0
+permalink: /docs/lumination/v1_0/
 excerpt: ""
 redirect_from:
   - /docs/lumination/

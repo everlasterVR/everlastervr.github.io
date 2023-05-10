@@ -1,6 +1,6 @@
 ---
 title: "Naturalis v1.0: Gravity Physics"
-permalink: /docs/naturalis/v1_0/gravity_physics
+permalink: /docs/naturalis/v1_0/gravity_physics/
 excerpt: ""
 toc: true
 sidebar:

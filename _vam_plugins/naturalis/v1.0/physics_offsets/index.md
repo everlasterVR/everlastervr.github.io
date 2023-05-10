@@ -1,6 +1,6 @@
 ---
 title: "Naturalis v1.0: Physics Offsets"
-permalink: /docs/naturalis/v1_0/physics_offsets
+permalink: /docs/naturalis/v1_0/physics_offsets/
 excerpt: ""
 sidebar:
   nav: docs_naturalis

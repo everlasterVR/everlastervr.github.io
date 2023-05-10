@@ -1,6 +1,6 @@
 <!-- ---
 title: "VarLicenseFilter v1.0"
-permalink: /docs/var-license-filter/v1_0
+permalink: /docs/var-license-filter/v1_0/
 excerpt: ""
 redirect_from:
   - /docs/var-license-filter/

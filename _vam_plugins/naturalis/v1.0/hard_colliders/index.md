@@ -1,6 +1,6 @@
 ---
 title: "Naturalis v1.0: Hard Colliders"
-permalink: /docs/naturalis/v1_0/hard_colliders
+permalink: /docs/naturalis/v1_0/hard_colliders/
 excerpt: ""
 toc: true
 sidebar:

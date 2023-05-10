@@ -1,6 +1,6 @@
 ---
 title: "Physics Rate and Frame Rate"
-permalink: /docs/general/physics_rate_and_frame_rate
+permalink: /docs/general/physics_rate_and_frame_rate/
 excerpt: ""
 redirect_from:
   - /docs/general/

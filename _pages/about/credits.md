@@ -1,6 +1,6 @@
 ---
 title: "Tutorial Credits"
-permalink: /about/credits
+permalink: /about/credits/
 excerpt: ""
 sidebar:
   nav: docs

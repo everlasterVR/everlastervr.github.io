@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: Directional Force Morphing"
-permalink: /docs/tittymagic/v5_2/directional_force_morphing
+permalink: /docs/tittymagic/v5_2/directional_force_morphing/
 excerpt: ""
 sidebar:
   nav: docs_tittymagic

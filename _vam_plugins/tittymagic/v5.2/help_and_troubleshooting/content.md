@@ -6,7 +6,7 @@ You are probably using another plugin that animates morphs in a way that is inco
 
 ### Breasts move too slowly
 
-A common reason for this is low frame rate. Movement can appear slow whenever frame rate is lower than physics rate. See [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate). For guides on improving frame rate in VAM, check [Guides (Hub)](https://hub.virtamate.com/resources/categories/guides.13/).
+A common reason for this is low frame rate. Movement can appear slow whenever frame rate is lower than physics rate. See [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate/). For guides on improving frame rate in VAM, check [Guides (Hub)](https://hub.virtamate.com/resources/categories/guides.13/).
 
 If breasts move slowly even with synced physics rate and frame rate, check that the softness slider value is not too low, and reset any offsets on Spring, Fat Spring and Fat Mass in the Physics Params tab.
 
@@ -20,7 +20,7 @@ Soft physics is also not supported on a male character.
 
 It's possible that hard collider sizes are out of proportion and incorrectly positioned. Hard colliders don't currently scale very well beyond breasts whose automatically estimated mass is 3.000 kg, and breasts that are particularly droopy or non-round in their base shape can also be problematic.
 
-Manually configuring collider sizes and positions in the [Configure Hard Colliders](/docs/tittymagic/v5_2/breast_hard_colliders) window can help here.
+Manually configuring collider sizes and positions in the [Configure Hard Colliders](/docs/tittymagic/v5_2/breast_hard_colliders/) window can help here.
 
 ## Known Issues
 

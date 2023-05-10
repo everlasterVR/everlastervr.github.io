@@ -1,6 +1,6 @@
 <!-- ---
 title: "JointCorrectEE v1.0"
-permalink: /docs/joint-correct-ee/v1_0
+permalink: /docs/joint-correct-ee/v1_0/
 excerpt: ""
 redirect_from:
   - /docs/joint-correct-ee/

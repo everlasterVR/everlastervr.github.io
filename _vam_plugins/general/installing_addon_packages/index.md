@@ -1,6 +1,6 @@
 ---
 title: "Installing Add-on Packages"
-permalink: /docs/general/installing_addon_packages
+permalink: /docs/general/installing_addon_packages/
 excerpt: ""
 sidebar:
   nav: docs

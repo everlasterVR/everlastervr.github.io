@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: Collider Friction"
-permalink: /docs/tittymagic/v5_2/collider_friction
+permalink: /docs/tittymagic/v5_2/collider_friction/
 excerpt: ""
 sidebar:
   nav: docs_tittymagic

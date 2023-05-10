@@ -1,6 +1,6 @@
 <!-- ---
 title: "HairLetLoose v1.0"
-permalink: /docs/hair-let-loose/v1_0
+permalink: /docs/hair-let-loose/v1_0/
 excerpt: ""
 redirect_from:
   - /docs/hair-let-loose/

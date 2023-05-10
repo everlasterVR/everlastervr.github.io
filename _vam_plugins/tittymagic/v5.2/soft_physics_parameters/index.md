@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: Soft Physics Parameters"
-permalink: /docs/tittymagic/v5_2/soft_physics_parameters
+permalink: /docs/tittymagic/v5_2/soft_physics_parameters/
 excerpt: ""
 sidebar:
   nav: docs_tittymagic

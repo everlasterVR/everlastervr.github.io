@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: About Calibration"
-permalink: /docs/tittymagic/v5_2/about_calibration
+permalink: /docs/tittymagic/v5_2/about_calibration/
 excerpt: ""
 sidebar:
   nav: docs_tittymagic

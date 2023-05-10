@@ -2,11 +2,11 @@ Hub: <https://hub.virtamate.com/resources/naturalis.33647/>
 
 ## Getting Started
 
-[Install the package](/docs/general/installing_addon_packages), start VAM, and add the plugin to a Person atom's Plugins tab.
+[Install the package](/docs/general/installing_addon_packages/), start VAM, and add the plugin to a Person atom's Plugins tab.
 
 The plugin's default settings are intended to work well in most situations.
 
-Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate) and [Performance](/docs/naturalis/v1_0/performance). Configure your setup correctly and you will get more out of the plugin!
+Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate/) and [Performance](/docs/naturalis/v1_0/performance/). Configure your setup correctly and you will get more out of the plugin!
 
 ## Basic Usage: Softness, Quickness and Mass
 
@@ -59,4 +59,4 @@ Since the plugin's default settings are carefully balanced to produce good resul
 
 ## Additional Features
 
-There's also info on [managing presets](/docs/naturalis/v1_0/saving_and_loading_presets), and [useful tips about looks, poses and scenes](/docs/naturalis/v1_0/info_for_creators).
+There's also info on [managing presets](/docs/naturalis/v1_0/saving_and_loading_presets/), and [useful tips about looks, poses and scenes](/docs/naturalis/v1_0/info_for_creators/).

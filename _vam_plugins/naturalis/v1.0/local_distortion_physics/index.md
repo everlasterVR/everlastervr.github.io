@@ -1,6 +1,6 @@
 ---
 title: "Naturalis v1.0: Local Distortion Physics"
-permalink: /docs/naturalis/v1_0/local_distortion_physics
+permalink: /docs/naturalis/v1_0/local_distortion_physics/
 excerpt: ""
 toc: true
 sidebar:

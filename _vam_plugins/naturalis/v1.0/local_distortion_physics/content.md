@@ -31,7 +31,7 @@ Each parameter has the following slider settings:
 
 ## Default Settings
 
-The default settings are mostly a result of experimentation. There's a very wide range of possible physics behaviours you can achieve by adjusting the LDP parameters along with different [offset](/docs/naturalis/v1_0/physics_offsets) and [gradient](/docs/naturalis/v1_0/soft_physics_gradient), so feel free to experiment yourself!
+The default settings are mostly a result of experimentation. There's a very wide range of possible physics behaviours you can achieve by adjusting the LDP parameters along with different [offset](/docs/naturalis/v1_0/physics_offsets/) and [gradient](/docs/naturalis/v1_0/soft_physics_gradient/), so feel free to experiment yourself!
 
 The same defaults apply to both BootyMagic and TittyMagic (except for fat distance limit).
 

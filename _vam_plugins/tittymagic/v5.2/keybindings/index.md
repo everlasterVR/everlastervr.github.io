@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2: Keybindings"
-permalink: /docs/tittymagic/v5_2/keybindings
+permalink: /docs/tittymagic/v5_2/keybindings/
 excerpt: ""
 sidebar:
   nav: docs_tittymagic
