@@ -5,7 +5,7 @@ excerpt: ""
 toc: true
 sidebar:
   nav: docs_naturalis
-parent_url: /docs/naturalis/v1_0
+parent_url: /docs/naturalis/v1_0/
 ---
 
 {% include_relative content.md %}

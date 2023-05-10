@@ -4,7 +4,7 @@ permalink: /docs/naturalis/v1_0/saving_and_loading_presets/
 excerpt: ""
 sidebar:
   nav: docs_naturalis
-parent_url: /docs/naturalis/v1_0
+parent_url: /docs/naturalis/v1_0/
 ---
 
 {% include_relative content.md %}

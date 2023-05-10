@@ -18,7 +18,7 @@ Physics parameters, morphs and collider properties are only designed to scale up
 
 These upper limits allow for breasts and glutes that would be considered extremely large in reality, but it does currently limit what kinds of characters are suitable for use with Naturalis.
 
-You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](/docs/naturalis/v1_0/optimizing_collision_physics/).
+You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](/docs/naturalis/v1_0/hard_colliders/).
 
 ### Including Presets In a Look Release
 

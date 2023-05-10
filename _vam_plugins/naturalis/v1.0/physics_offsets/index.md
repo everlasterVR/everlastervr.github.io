@@ -4,7 +4,7 @@ permalink: /docs/naturalis/v1_0/physics_offsets/
 excerpt: ""
 sidebar:
   nav: docs_naturalis
-parent_url: /docs/naturalis/v1_0
+parent_url: /docs/naturalis/v1_0/
 ---
 
 {% include_relative content.md %}

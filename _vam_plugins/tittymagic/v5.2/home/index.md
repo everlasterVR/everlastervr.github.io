@@ -1,6 +1,6 @@
 ---
 title: "TittyMagic v5.2"
-permalink: /docs/tittymagic/v5_2
+permalink: /docs/tittymagic/v5_2/
 excerpt: ""
 redirect_from:
   - /docs/titty-magic/

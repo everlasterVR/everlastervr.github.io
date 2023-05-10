@@ -1,4 +1,4 @@
-TittyMagic has support for some actions to be triggered with [Keybindings](https://hub.virtamate.com/resources/keybindings.4400/). I highly recommend this plugin when in desktop mode - the Find Command binding allows quickly accessing lots of commands from VAM and plugins that integrate with it.
+TittyMagic has support for some actions to be triggered with [Keybindings](https://hub.virtamate.com/resources/keybindings.4400/) (Hub). I highly recommend this plugin when in desktop mode - the Find Command binding allows quickly accessing lots of commands from VAM and plugins that integrate with it.
 
 | Command | Description |
 | --- | --- |

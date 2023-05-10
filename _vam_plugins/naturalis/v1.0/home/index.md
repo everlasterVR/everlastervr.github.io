@@ -1,6 +1,6 @@
 ---
 title: "Naturalis v1.0"
-permalink: /docs/naturalis/v1_0
+permalink: /docs/naturalis/v1_0/
 excerpt: ""
 toc: true
 redirect_from:
