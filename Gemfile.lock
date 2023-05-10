@@ -254,14 +254,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (~> 228)
-  http_parser.rb (~> 0.6.0)
+  github-pages (= 228)
   jekyll (= 3.9.3)
-  jekyll-include-cache
-  jekyll-redirect-from (~> 0.16.0)
-  tzinfo (>= 1, < 3)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  jekyll-include-cache (= 0.2.1)
+  jekyll-redirect-from (= 0.16.0)
 
 BUNDLED WITH
    2.1.4
