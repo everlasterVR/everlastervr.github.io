@@ -61,10 +61,12 @@ naturalis_with_children: &naturalis_with_children
       url: /docs/naturalis/v1_0/collider_friction/
     - title: Saving and Loading Presets
       url: /docs/naturalis/v1_0/saving_and_loading_presets/
-    - title: About Calibration
-      url: /docs/naturalis/v1_0/about_calibration/
     - title: "Info for Creators"
       url: /docs/naturalis/v1_0/info_for_creators/
+    - title: About Calibration
+      url: /docs/naturalis/v1_0/about_calibration/
+    - title: "Keybindings"
+      url: /docs/naturalis/v1_0/keybindings/
 
 tittymagic_with_children: &tittymagic_with_children
   <<: *tittymagic
