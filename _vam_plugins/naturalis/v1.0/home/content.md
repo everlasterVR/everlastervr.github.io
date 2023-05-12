@@ -2,7 +2,8 @@ Hub: <https://hub.virtamate.com/resources/naturalis.33647/> ([version history](h
 
 ## Getting Started
 
-[Install the package](/docs/general/installing_addon_packages/), start VAM, and add the plugin to a Person atom's Plugins tab.
+1. [Install the package](/docs/general/installing_addon_packages/)
+2. Start VAM and add the plugin to a Person atom's Plugins tab. Alternatively, in v1.0.1, you can [auto-upgrade from TittyMagic 5](/docs/naturalis/v1_0/auto_upgrading/).
 
 The plugin's default settings are intended to work well in most situations.
 

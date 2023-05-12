@@ -43,11 +43,11 @@ naturalis_with_children: &naturalis_with_children
   children:
     - title: Home
       url: /docs/naturalis/v1_0/
-    - title: "Physics Parameters"
+    - title: Physics Parameters
       url: /docs/naturalis/v1_0/physics_parameters/
-    - title: "Physics Offsets"
+    - title: Physics Offsets
       url: /docs/naturalis/v1_0/physics_offsets/
-    - title: "Soft Physics Gradient"
+    - title: Soft Physics Gradient
       url: /docs/naturalis/v1_0/soft_physics_gradient/
     - title: Local Distortion Physics
       url: /docs/naturalis/v1_0/local_distortion_physics/
@@ -61,11 +61,13 @@ naturalis_with_children: &naturalis_with_children
       url: /docs/naturalis/v1_0/collider_friction/
     - title: Saving and Loading Presets
       url: /docs/naturalis/v1_0/saving_and_loading_presets/
-    - title: "Info for Creators"
+    - title: Info for Creators
       url: /docs/naturalis/v1_0/info_for_creators/
     - title: About Calibration
       url: /docs/naturalis/v1_0/about_calibration/
-    - title: "Keybindings"
+    - title: Auto-Upgrading
+      url: /docs/naturalis/v1_0/auto_upgrading/
+    - title: Keybindings
       url: /docs/naturalis/v1_0/keybindings/
 
 tittymagic_with_children: &tittymagic_with_children
