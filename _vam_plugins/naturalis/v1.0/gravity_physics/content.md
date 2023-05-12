@@ -1,6 +1,13 @@
 **Gravity physics** is the adjustment of a few physics parameters based on the angle of the glute or breast joint relative to ground, i.e. relative to the direction of gravity. Additionally, a **Gravity Counterforce** is applied on the Mass parameter to counteract the effect of gravity without reducing mass.
 
-*Gravity Physics tutorial video coming Soon™.*
+<div class='video-container'>
+  <iframe
+    src='https://videos.sproutvideo.com/embed/709fdbb31d1decc9f9/311a7482d7cc163a?playerTheme=dark&amp;playerColor=2f3437'
+    allowfullscreen
+    referrerpolicy='no-referrer-when-downgrade'
+    title='Gravity physics'>
+  </iframe>
+</div>
 
 > **Note:** The Gravity x/y/z settings in Scene Misc are not taken into account. The plugin assumes the default -9.81 m/s² gravity in the y direction.
 
@@ -24,6 +31,9 @@
 | In/Out Spring | In/Out Spring decreases when leaning forward or back. |
 | Up/Down Angle Target | Up/Down Angle Target is negative when upright, causing breasts to get pulled down more heavily, and positive when upside down, causing them to be pulled up more heavily. |
 | Left/Right Angle Target | Left/Right Angle Target pulls the breasts sideways towards the direction of gravity. |
+
+> **Tip: Compensate for droop with morphing**<br/>
+> In the Morphs tab, you can compensate for the droop caused by the Up/Down Angle Target with the Gravity Offset Morphing slider. By default, TittyMagic applies roughly the amount of offset morphing that's equivalent to the angle being 0.
 
 ## Gravity Counterforce
 

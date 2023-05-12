@@ -1,4 +1,4 @@
-Hub: <https://hub.virtamate.com/resources/naturalis.33647/>
+Hub: <https://hub.virtamate.com/resources/naturalis.33647/> ([version history](https://hub.virtamate.com/resources/naturalis.33647/history))
 
 ## Getting Started
 

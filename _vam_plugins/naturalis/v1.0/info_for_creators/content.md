@@ -44,7 +44,7 @@ When saving a pose while Naturalis is active, the pose will contain all of Booty
 
 For cleaning up Naturalis morphs from pose files, there's a few ways you can go about it:
 
-1. Load the pose, add Naturalis if not present, then disable Naturalis and save and overwrite the pose
+1. Load the pose, add Naturalis if not present (this zeroes morphs from other Naturalis or TittyMagic vars), then disable Naturalis (this zeroes the morphs from the current var), and finally save and overwrite the pose
 2. Load the pose, find the morphs with **BM_** and **TM_** prefixes from the Female Morphs tab, then click **Zero...** and **Shown**
 3. Open the pose file in a text editor and remove the morphs with **BM_** and **TM_** prefixes manually
 

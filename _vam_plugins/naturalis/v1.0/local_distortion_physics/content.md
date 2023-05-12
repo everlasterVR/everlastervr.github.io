@@ -7,7 +7,7 @@ It changes the values of soft physics parameters on individual soft joints based
     src='https://videos.sproutvideo.com/embed/ac9fdbb31b1de6c125/34148bf0d70df5e6?playerTheme=dark&amp;playerColor=2f3437'
     allowfullscreen
     referrerpolicy='no-referrer-when-downgrade'
-    title='Local Distortion Physics'>
+    title='Local distortion physics'>
   </iframe>
 </div>
 
@@ -77,7 +77,7 @@ By default, Fat Mass increases with compression and decreases with stretching. T
 | Stretching Effect | 0.40 |
 | Stretching Sensitivity | 0.70 |
 
-Fat Collider Radius increases slightly when there's compression, and increases more when there's stretching. The dynamic increase in size makes the colliders push back at colliding objects and helps reduce clipping through the gaps between colliders
+Fat Collider Radius increases slightly with compression, and increases more with stretching. The dynamic increase in size makes the colliders push back at colliding objects and helps reduce clipping through the gaps between colliders.
 
 ### Fat Collider Depth
 
@@ -103,7 +103,7 @@ With LDP enabled, the base value for Fat Distance Limit is lower, but it increas
 
 ## Performance & User Preferences
 
-LDP has a slight performance impact, which can be detrimental to the experience if you're not hitting a stable framerate. Therefore it's disabled by default, but in **Naturalis User Preferences**, you can set it to be enabled by default when soft physics is enabled.
+LDP has a slight performance impact which can be detrimental to the experience if you're not hitting a stable framerate. Therefore it's disabled by default, but in **Naturalis User Preferences**, you can set it to be enabled by default when soft physics is enabled.
 
 In the user preferences, **LDP Update Rate** is set to 30 Hz by default. This results in a good balance between responsiveness and performance.
 
