@@ -4,8 +4,6 @@
 
 Naturalis adds a **Pause morph updates** toggle to the Female Morphs and Male Morphs tabs. This toggle is on by default. It prevents the plugin from applying directional force morphs, allowing you to see how the base morphs you're adjusting actually affect the shape.
 
-*Person morphs tutorial video coming Soon™.*
-
 #### About Optimal Morphs (TittyMagic)
 
 The dynamic force morphing system is designed around a base breast shape that is fairly round and natural, and not drooping heavily. Using morphs for the base shape that have gravity "built in" to the shape can result in unnatural-looking shapes when the model is rotated.
@@ -49,6 +47,16 @@ For cleaning up Naturalis morphs from pose files, there's a few ways you can go 
 3. Open the pose file in a text editor and remove the morphs with **BM_** and **TM_** prefixes manually
 
 ## Scenes
+
+### Instant Calibration on Scene Load
+
+Naturalis saves calibration data to the scene file so that when the scene is loaded, the calibration goes through instantly without interfering with scene playback and the person's pose. However, this only works if **calibration is not pending** when you save the scene.
+
+### Ensuring Consistent Poses When Calibrating
+
+Since calibrating loads a pose and disables collision temporarily, another character colliding with the plugin's person atom will stop colliding with it for the duration of calibration. To ensure that the character's pose is aligned correctly when the calibration finishes, make sure the pose isn't too dependent on collision with the plugin's person atom. For example, use Position On and Rotation On states to keep the necessary controllers in their intended place even when there's no collision with the plugin's person atom.
+
+On a related note, any kind of trigger that loads a pose should not be triggered while calibration is ongoing. At the end of calibration, the pose will just be reset back to what it was before calibration anyway. In addition, loading a pose during calibration could interefere with the calibration result.
 
 ### Audio Playback During Calibration
 
