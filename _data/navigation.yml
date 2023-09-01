@@ -10,6 +10,9 @@ plugins_config:
   naturalis: &naturalis
     title: Naturalis v1.0
     url: /docs/naturalis/v1_0/
+  naturalis_v1_1: &naturalis_v1_1
+    title: Naturalis v1.1
+    url: /docs/naturalis/v1_1/
   var_license_filter: &var_license_filter
     title: Var License Filter v1.0
     url: /docs/var-license-filter/v1_0/
@@ -70,6 +73,38 @@ naturalis_with_children: &naturalis_with_children
     - title: Keybindings
       url: /docs/naturalis/v1_0/keybindings/
 
+naturalis_v1_1_with_children: &naturalis_v1_1_with_children
+  <<: *naturalis_v1_1
+  children:
+    - title: Home
+      url: /docs/naturalis/v1_1/
+    - title: Physics Parameters
+      url: /docs/naturalis/v1_1/physics_parameters/
+    - title: Physics Offsets
+      url: /docs/naturalis/v1_1/physics_offsets/
+    - title: Soft Physics Gradient
+      url: /docs/naturalis/v1_1/soft_physics_gradient/
+    - title: Local Distortion Physics
+      url: /docs/naturalis/v1_1/local_distortion_physics/
+    - title: Gravity Physics
+      url: /docs/naturalis/v1_1/gravity_physics/
+    - title: Directional Force Morphing
+      url: /docs/naturalis/v1_1/directional_force_morphing/
+    - title: Hard Colliders
+      url: /docs/naturalis/v1_1/hard_colliders/
+    - title: Collider Friction
+      url: /docs/naturalis/v1_1/collider_friction/
+    - title: Saving and Loading Presets
+      url: /docs/naturalis/v1_1/saving_and_loading_presets/
+    - title: Info for Creators
+      url: /docs/naturalis/v1_1/info_for_creators/
+    - title: About Calibration
+      url: /docs/naturalis/v1_1/about_calibration/
+    - title: Auto-Upgrading
+      url: /docs/naturalis/v1_1/auto_upgrading/
+    - title: Keybindings
+      url: /docs/naturalis/v1_1/keybindings/
+
 tittymagic_with_children: &tittymagic_with_children
   <<: *tittymagic
   children:
@@ -100,6 +135,7 @@ tittymagic_with_children: &tittymagic_with_children
 
 plugins: &plugins
   - *naturalis
+  - *naturalis_v1_1
   # - *var_license_filter
   - *tittymagic
   # - *joint_correct_ee
@@ -112,6 +148,19 @@ plugins: &plugins
 
 plugins_naturalis: &plugins_naturalis
   - *naturalis_with_children
+  - *naturalis_v1_1
+  # - *var_license_filter
+  - *tittymagic
+  # - *joint_correct_ee
+  # - *float_param_randomizer_ee
+  # - *hair_let_loose
+  # - *mocap_switcher
+  # - *lumination
+  # - *live_reload
+
+plugins_naturalis_v1_1: &plugins_naturalis_v1_1
+  - *naturalis
+  - *naturalis_v1_1_with_children
   # - *var_license_filter
   - *tittymagic
   # - *joint_correct_ee
@@ -123,6 +172,7 @@ plugins_naturalis: &plugins_naturalis
 
 plugins_tittymagic: &plugins_tittymagic
   - *naturalis
+  - *naturalis_v1_1
   # - *var_license_filter
   - *tittymagic_with_children
   # - *joint_correct_ee
@@ -131,42 +181,6 @@ plugins_tittymagic: &plugins_tittymagic
   # - *mocap_switcher
   # - *lumination
   # - *live_reload
-
-# naturalis_versions: &naturalis_versions
-#   - title: v1.0
-#     url: /docs/naturalis/v1_0
-
-# var_license_filter_versions: &var_license_filter_versions
-#   - title: v1.0
-#     url: /docs/var-license-filter/v1_0
-
-# tittymagic_versions: &tittymagic_versions
-#   - title: v5.2
-#     url: /docs/tittymagic/v5_2
-
-# joint_correct_ee_versions: &joint_correct_ee_versions
-#   - title: v1.0
-#     url: /docs/joint-correct-ee/v1_0
-
-# float_param_randomizer_ee_versions: &float_param_randomizer_ee_versions
-#   - title: v1.0
-#     url: /docs/float-param-randomizer-ee/v1_0
-
-# hair_let_loose_versions: &hair_let_loose_versions
-#   - title: v1.0
-#     url: /docs/hair-let-loose/v1_0
-
-# mocap_switcher_versions: &mocap_switcher_versions
-#   - title: v1.2
-#     url: /docs/mocap-switcher/v1_2
-
-# lumination_versions: &lumination_versions
-#   - title: v1.0
-#     url: /docs/lumination/v1_0
-
-# live_reload_versions: &live_reload_versions
-#   - title: v1.0
-#     url: /docs/live-reload/v1_0
 
 general: &general
   - title: Installing Add-on Packages
@@ -195,8 +209,14 @@ docs_naturalis:
     children: *general
   - title: About
     children: *about
-  # - title: Naturalis Versions
-  #   children: *naturalis_versions
+
+docs_naturalis_v1_1:
+  - title: Plugins
+    children: *plugins_naturalis_v1_1
+  - title: General
+    children: *general
+  - title: About
+    children: *about
 
 docs_var_license_filter:
   - title: Plugins
@@ -205,8 +225,6 @@ docs_var_license_filter:
     children: *general
   - title: About
     children: *about
-  # - title: Var License Filter Versions
-  #   children: *var_license_filter_versions
 
 docs_tittymagic:
   - title: Plugins
@@ -215,8 +233,6 @@ docs_tittymagic:
     children: *general
   - title: About
     children: *about
-  # - title: TittyMagic Versions
-  #   children: *tittymagic_versions
 
 docs_joint_correct_ee:
   - title: Plugins
@@ -225,8 +241,6 @@ docs_joint_correct_ee:
     children: *general
   - title: About
     children: *about
-  # - title: Joint Correct EE Versions
-  #   children: *joint_correct_ee_versions
 
 docs_float_param_randomizer_ee:
   - title: Plugins
@@ -235,8 +249,6 @@ docs_float_param_randomizer_ee:
     children: *general
   - title: About
     children: *about
-  # - title: Float Param Randomizer EE Versions
-  #   children: *float_param_randomizer_ee_versions
 
 docs_hair_let_loose:
   - title: Plugins
@@ -245,8 +257,6 @@ docs_hair_let_loose:
     children: *general
   - title: About
     children: *about
-  # - title: Hair Let Loose Versions
-  #   children: *hair_let_loose_versions
 
 docs_mocap_switcher:
   - title: Plugins
@@ -255,8 +265,6 @@ docs_mocap_switcher:
     children: *general
   - title: About
     children: *about
-  # - title: Mocap Switcher Versions
-  #   children: *mocap_switcher_versions
 
 docs_lumination:
   - title: Plugins
@@ -265,8 +273,6 @@ docs_lumination:
     children: *general
   - title: About
     children: *about
-  # - title: Lumination Versions
-  #   children: *lumination_versions
 
 docs_live_reload:
   - title: Plugins
@@ -275,5 +281,3 @@ docs_live_reload:
     children: *general
   - title: About
     children: *about
-  # - title: Live Reload Versions
-  #   children: *live_reload_versions
