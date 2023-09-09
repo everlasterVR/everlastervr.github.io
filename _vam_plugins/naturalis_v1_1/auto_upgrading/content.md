@@ -1,22 +1,27 @@
-Starting with Naturalis v1.0.1 (everlaster.Naturalis.14.var), you can auto-upgrade from TittyMagic 5.x or Naturalis v1.0.0 to the version in the var. This makes it easy to update the version without losing the changes you've made to the plugin parameters.
+These scripts make it easy to use the latest Naturalis version in a scene without losing the changes you've made to the plugin's parameters.
 
-## How-To
+## Auto-Update Naturalis
 
-If you have TittyMagic v5.x or Naturalis v1.0.0 on the Person atom, simply add a new plugin, select the latest Naturalis var package, and add the AutoUpgrade.cs instead of the usual cslist:
+![1_1_auto_update.jpg](/assets/screens/naturalis/1_1_auto_update.jpg)
 
-![auto_upgrade.jpg](/assets/screens/naturalis/auto_upgrade.jpg)
+Add to a Person atom which has an existing older Naturalis instance.
 
-The upgrade proceeds automatically from there.
+The script automatically removes the current Naturalis instance, adds Naturalis.dll from the var package the script is loaded from, and auto-applies the old instance's plugin parameters.
+
+This process preserves any triggers in the scene targeting Naturalis.
 
 A few things to note:
 
-- Upgrading from pre-release versions (alphas and betas) is not supported.
-- The auto-upgrade *only* swaps the plugin on the person atom itself, it does not touch any preset files, scene files etc.
+- Updating from pre-release versions (alphas and betas) is not supported
+- Auto-updating *only* swaps the plugin on the person atom itself, it does not touch any preset files, scene files etc.
 
-> **Info: How it works**<br/>
-> The script grabs plugin parameters from the existing plugin and converts them to parameters that work in the version of Naturalis that's in the var package you load AutoUpgrade from. The script then removes the existing plugin, adds Naturalis from the var, and loads the converted parameters into the new plugin.
+## Auto-Upgrade From TittyMagic 5
 
-## About Upgrading From TittyMagic 5
+![1_1_auto_upgrade_from_tm5.jpg](/assets/screens/naturalis/1_1_auto_upgrade_from_tm5.jpg)
+
+Add to a Person atom which has TittyMagic 5 on it.
+
+The script automatically removes TittyMagic instance, adds Naturalis.dll the var package the script is loaded from, and adapts the TittyMagic 5 parameters to Naturalis (see below). Triggers in the scene targeting TittyMagic 5 will be broken and need to be fixed manually.
 
 - Physics parameter offsets are not applied, except for Angle Targets (the default physics values differ too much with Naturalis)
 - Like other physics parameter offsets, Mass Offset is not applied (mass calculation is different in Naturalis)

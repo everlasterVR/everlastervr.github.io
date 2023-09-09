@@ -1,3 +1,7 @@
+## Clothing
+
+**TODO**
+
 ## Looks
 
 ### Adjusting Person Morphs
@@ -16,11 +20,11 @@ Physics parameters, morphs and collider properties are only designed to scale up
 
 These upper limits allow for breasts and glutes that would be considered extremely large in reality, but it does currently limit what kinds of characters are suitable for use with Naturalis.
 
-You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](/docs/naturalis/v1_0/hard_colliders/).
+You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](/docs/naturalis/v1_1/hard_colliders/).
 
 ### Including Presets In a Look Release
 
-Since Naturalis allows for [saving presets for BootyMagic and TittyMagic](/docs/naturalis/v1_0/saving_and_loading_presets/), you can include those presets in your own add-on packages.
+Since Naturalis allows for [saving presets for BootyMagic and TittyMagic](/docs/naturalis/v1_1/saving_and_loading_presets/), you can include those presets in your own add-on packages.
 
 The correct way to do this is like with any other VAM resource - create a new folder in the resource type's  path with your author name, and another folder inside that with the resource name, then put the files in there. Then add the resource's folder when creating the package.
 

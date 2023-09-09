@@ -8,6 +8,7 @@ Naturalis has support for some actions to be triggered with [Keybindings](https:
 | `BootyMagic.OpenUI_Physics` | opens the BootyMagic UI and navigates to the Physics window |
 | `BootyMagic.OpenUI_Morphs` | opens the BootyMagic UI and navigates to the Morphs window |
 | `BootyMagic.OpenUI_HardColliders` | opens the BootyMagic UI, navigates to the Hard Colliders window |
+| `BootyMagic.OpenUI_Clothing` | opens the BootyMagic UI, navigates to the Clothing window |
 | `BootyMagic.Calibrate` | triggers BootyMagic calibration |
 | `TittyMagic.OpenUI` | opens the TittyMagic UI |
 | `TittyMagic.OpenUI_Main` | opens the TittyMagic UI and navigates to the TittyMagic window |
@@ -15,4 +16,5 @@ Naturalis has support for some actions to be triggered with [Keybindings](https:
 | `TittyMagic.OpenUI_Physics` | opens the TittyMagic UI and navigates to the Physics window |
 | `TittyMagic.OpenUI_Morphs` | opens the TittyMagic UI and navigates to the Morphs window |
 | `TittyMagic.OpenUI_HardColliders` | opens the TittyMagic UI, navigates to the Hard Colliders window |
+| `TittyMagic.OpenUI_Clothing` | opens the TittyMagic UI, navigates to the Clothing window |
 | `TittyMagic.Calibrate` | triggers TittyMagic calibration |

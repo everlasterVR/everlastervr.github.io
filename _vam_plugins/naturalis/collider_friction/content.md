@@ -1,8 +1,6 @@
-Collider friction can be configured in the Skin Materials 2 tab.
+Collider friction can be configured in the Skin Materials 2 tab. These controls affect both hard colliders and colliders of the soft physics mesh simultaneously.
 
 ![1_0_collider_friction.jpg](/assets/screens/naturalis/1_0_collider_friction.jpg)
-
-> **Note**: Collider friction of hard colliders falls off with distance from their calibrated position to prevent them from sticking to colliding objects.
 
 ## Adaptive Friction
 

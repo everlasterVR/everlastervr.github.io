@@ -1,4 +1,4 @@
-Directional force morphing is a critical part of the plugin, but the configuration options are basic in v1.0. It's mostly an automated system which determines which morphs get applied and how (strength, curvature, limits etc.) based on breast/glute size and softness.
+Directional force morphing is a critical part of the plugin. It's mostly an automated system which determines which morphs get applied and how (strength, curvature, limits etc.) based on breast/glute size and softness.
 
 When soft physics is enabled, morphs get applied when the soft physics mesh deforms. Therefore, reducing the amount of morphing can make the mesh lose volume when there's collision pushing the soft joints. With soft physics disabled, this is less of an issue (mostly because the quality of collision physics in general is poor without soft physics).
 
@@ -15,6 +15,12 @@ Increasing the multipliers can make breasts or glutes expand too much. Generally
 | **Depth Out** | The amount that the glute flattens and expands when there's a force (e.g. gravity) pushing it into the hip. | `Force Morphing Depth In` |
 | **Sideways In** | The amount that the glute moves and rotates inward towards the middle. A change can be caused by collision, by leaning in the direction of the morphing, or by some other sideways force. | `Force Morphing Sideways In` |
 | **Sideways Out** | The amount that the glute moves and rotates outward. A change can be caused by collision, by leaning in the direction of the morphing, or by some other sideways force. | `Force Morphing Sideways Out` |
+
+### Angle Offsets
+
+Morph angle offsets allow you to fine tune the joint angle/depth where morphs are zero, and get the morphs to adjust in a way that's ideal for a specific look or in a specific pose.
+
+![1_0_glute_angle_offsets_ui.jpg](/assets/screens/naturalis/1_0_glute_angle_offsets_ui.jpg)
 
 ## TittyMagic
 

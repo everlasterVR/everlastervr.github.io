@@ -1,4 +1,4 @@
-**Gravity physics** is the adjustment of a few physics parameters based on the angle of the glute or breast joint relative to ground, i.e. relative to the direction of gravity. Additionally, a **Gravity Counterforce** is applied on the Mass parameter to counteract the effect of gravity without reducing mass.
+**Gravity physics** is the adjustment of a few physics parameters based on the angle of the glute or breast joint relative to ground, i.e. relative to the direction of gravity. In addition, the [custom gravity force](/docs/naturalis/v1_1/custom_gravity_force/) adds a different amount of weight to the joint in different poses.
 
 <div class='video-container'>
   <iframe
@@ -17,35 +17,24 @@
 
 | Physics Parameter | Description |
 |-------------------|-------------|
-| Spring | Spring is at its base value when upright, e.g. when the person is standing up. When leaning back, left, right or when upside down, spring is reduced. When leaning forward (gravity applies towards the hip), spring is increased.
+| Rotation Spring | Spring is at its base value when upright, e.g. when the person is standing up. When leaning back, left, right or when upside down, spring is reduced. When leaning forward (gravity applies towards the hip), spring is increased.
 | In/Out Spring | In/Out Spring decreases when leaning forward or back. |
-| Up/Down Angle Target | Up/Down Angle Target is negative when upright, causing glutes to get pulled down more heavily, and positive when upside down, causing them to be pulled up more heavily. |
+| Up/Down Angle Target | Up/Down Angle Target deacreases when upright and increases when upside down. |
 | Left/Right Angle Target | Left/Right Angle Target pulls the glutes sideways towards the direction of gravity. |
 
 ### TittyMagic
 
 | Physics Parameter | Description |
 |-------------------|-------------|
-| Spring | Spring is at its base value when upright, e.g. when the person is standing up. When leaning forward, left, right or when upside down, spring is reduced. When leaning back (gravity applies towards the chest), spring is increased.
-| Damper | Damper increases when leaning forward or back, or when the breast rotates sideways inward. |
+| Rotation Spring | Spring is at its base value when upright, e.g. when the person is standing up. When leaning forward, left, right or when upside down, spring is reduced. When leaning back (gravity applies towards the chest), spring is increased.
+| Rotation Damper | Damper increases when leaning forward or back, or when the breast rotates sideways inward. |
+| Right/Left Spring | Right/Left Spring increases when leaning to the side, this is to prevent weird behaviour (too loose and messes up morphing) in that angle. |
 | In/Out Spring | In/Out Spring decreases when leaning forward or back. |
-| Up/Down Angle Target | Up/Down Angle Target is negative when upright, causing breasts to get pulled down more heavily, and positive when upside down, causing them to be pulled up more heavily. |
+| Up/Down Angle Target | Up/Down Angle Target negative when upright, causing breasts to get pulled down more heavily, and zero when upside down. |
 | Left/Right Angle Target | Left/Right Angle Target pulls the breasts sideways towards the direction of gravity. |
 
 > **Tip: Compensate for droop with morphing**<br/>
 > In the Morphs tab, you can compensate for the droop caused by the Up/Down Angle Target with the Gravity Offset Morphing slider. By default, TittyMagic applies roughly the amount of offset morphing that's equivalent to the angle being 0.
-
-## Gravity Counterforce
-
-Gravity counterforce is an extra setting on the Glute Joint Mass and Breast Joint Mass physics parameters. It allows for decoupling mass from weight by applying a force opposite to the direction of gravity. With gravity counterforce, we can reduce the weight of the joint without affecting the inertia supplied by mass. It gives the joint support that reduces droop/sag.
-
-![1_0_gravity_counterforce.jpg](/assets/screens/naturalis/1_0_gravity_counterforce.jpg)
-
-Gravity counterforce is a percentage of the force of gravity, so at 100% it cancels out all of the joint's weight.
-
-In Bootymagic, the counterforce is automatically quite high because the butt doesn't simply hang off of the person's skeleton. In reality, most of the weight of the butt is supported by the surrounding muscles and skin around it, and the counterforce simulates that.
-
-In TittyMagic, there's much less gravity counterforce by default.
 
 ## Directional Force Physics
 

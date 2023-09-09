@@ -3,15 +3,15 @@ Hub: <https://hub.virtamate.com/resources/naturalis.33647/> ([version history](h
 ## Getting Started
 
 1. [Install the package](/docs/general/installing_addon_packages/)
-2. Start VAM and add the plugin to a Person atom's Plugins tab. Alternatively, in v1.0.1, you can [auto-upgrade from TittyMagic 5](/docs/naturalis/v1_0/auto_upgrading/).
+2. Start VAM and add Naturalis.cslist to a Person atom's Plugins tab. See also [Auto-Upgrading](/docs/naturalis/v1_0/auto_upgrading/).
 
 The plugin's default settings are intended to work well in most situations.
 
-Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate/) and [Performance](/docs/naturalis/v1_0/performance/). Configure your setup correctly and you will get more out of the plugin!
+Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate/). Configure your setup correctly and you will get more out of the plugin!
 
 ## Basic Usage: Softness, Quickness and Mass
 
-The softness, quickness and joint mass offset sliders are intended as easy and intuitive ways to change how the breasts and glutes should behave. They adjust many different settings in the background, affecting the overall physics, collision and morphing.
+The softness, quickness and joint mass offset sliders are intended as easy and intuitive ways to change how breasts and glutes should behave. They adjust many different settings in the background, affecting the overall physics, collision and morphing.
 
 ### Softness
 
@@ -60,4 +60,4 @@ Since the plugin's default settings are carefully balanced to produce good resul
 
 ## Additional Features
 
-There's also info on [managing presets](/docs/naturalis/v1_0/saving_and_loading_presets/), and [useful tips about looks, poses and scenes](/docs/naturalis/v1_0/info_for_creators/).
+There's also info on [managing presets](/docs/naturalis/v1_0/saving_and_loading_presets/), and [info about looks, poses and scenes](/docs/naturalis/v1_0/info_for_creators/).

@@ -1,4 +1,8 @@
-Presets specific to TittyMagic and BootyMagic can be saved and loaded in-plugin. The default paths for presets are:
+Presets specific to TittyMagic and BootyMagic can be saved and loaded in-plugin.
+
+![1_1_plugin_presets.png](/assets/screens/naturalis/1_1_plugin_presets.jpg)
+
+The default paths for presets are:
 
 |   | Path |
 | - | ---- |
@@ -15,6 +19,10 @@ When loading a preset, the file browser that opens will search for presets in th
 
 > **Tip: Load preset with a trigger**<br/>
 > The LoadPresetWithPath triggerable parameter can be used to select a preset path, and then load from selected path with a trigger action.
+
+### Default Preset
+
+The default preset, if set, will be loaded automatically when the plugin is added to the person, overriding the plugin's built-in default values.
 
 ### Saving Into a New Folder
 

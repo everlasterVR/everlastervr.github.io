@@ -31,7 +31,7 @@ Each parameter has the following slider settings:
 
 ## Default Settings
 
-The default settings are mostly a result of experimentation. There's a very wide range of possible physics behaviours you can achieve by adjusting the LDP parameters along with different [offset](/docs/naturalis/v1_0/physics_offsets/) and [gradient](/docs/naturalis/v1_0/soft_physics_gradient/), so feel free to experiment yourself!
+The default settings are mostly a result of experimentation. There's a very wide range of possible physics behaviours you can achieve by adjusting the LDP parameters along with different [offset](/docs/naturalis/v1_1/physics_offsets/) and [gradient](/docs/naturalis/v1_1/soft_physics_gradient/), so feel free to experiment yourself!
 
 The same defaults apply to both BootyMagic and TittyMagic (except for fat distance limit).
 
@@ -39,10 +39,10 @@ The same defaults apply to both BootyMagic and TittyMagic (except for fat distan
 
 | Slider | Value |
 | ------ | ----- |
-| Compression Effect | 0.62 |
-| Compression Sensitivity | 0.70 |
-| Stretching Effect | 0.62 |
-| Stretching Sensitivity | 0.70 |
+| Compression Effect | 0.35 |
+| Compression Sensitivity | 0.85 |
+| Stretching Effect | 0.35 |
+| Stretching Sensitivity | 0.85 |
 
 Fat Spring increases with both stretching and compression. The idea is simulate how the glute or breast tissue resists changes in shape beyond a certain limit. To compensate for this, the base value for fat spring is lower with LDP enabled, so breasts and glutes are softer in their calibrated shape, and become firmer as they're compressed or stretched.
 
@@ -50,9 +50,9 @@ Fat Spring increases with both stretching and compression. The idea is simulate 
 
 | Slider | Value |
 | ------ | ----- |
-| Compression Effect | -0.50 |
+| Compression Effect | -0.40 |
 | Compression Sensitivity | 0.80 |
-| Stretching Effect | -0.50 |
+| Stretching Effect | -0.40 |
 | Stretching Sensitivity | 0.80 |
 
 Fat Damper is configured to decrease with both compression and stretching. This slightly exaggerates the jiggle physics in animations, but in a way that prevents the joints from oscillating too much when in the calibrated "resting" shape.
@@ -61,9 +61,9 @@ Fat Damper is configured to decrease with both compression and stretching. This 
 
 | Slider | Value |
 | ------ | ----- |
-| Compression Effect | 0.70 |
+| Compression Effect | 0.50 |
 | Compression Sensitivity | 0.80 |
-| Stretching Effect | -0.35 |
+| Stretching Effect | -0.25 |
 | Stretching Sensitivity | 0.80 |
 
 By default, Fat Mass increases with compression and decreases with stretching. The idea is to facilitate "rippling" of the physics mesh. Joints which have different fat mass will move/accelerate at different speeds (due to having different inertia) when forces are applied.
@@ -89,6 +89,17 @@ Fat Collider Radius increases slightly with compression, and increases more with
 | Stretching Sensitivity | 0.90 |
 
 Fat Collider Depth increases with stretching. This makes colliding objects bury themselves in the mesh the more force is being applied that stretches out the mesh.
+
+### Fat Collider Friction
+
+| Slider | Value |
+| ------ | ----- |
+| Compression Effect | 0.00 |
+| Compression Sensitivity | 0.50 |
+| Stretching Effect | 0.30 |
+| Stretching Sensitivity | 0.50 |
+
+Fat Collider Friction increases slightly with stretching in order to reduce slipping a when an object is pushing against the mesh.
 
 ### Fat Distance Limit
 

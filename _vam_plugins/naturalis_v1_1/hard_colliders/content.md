@@ -4,7 +4,7 @@ The plugin calibrates collider sizes and positions based on the estimated volume
 
 Hard colliders have mass which contributes inertia to the glute or breast joint. Also, reducing this mass diminishes the impact of hard colliders on the joint's movement.
 
-![1_0_hard_colliders_ui.jpg](/assets/screens/naturalis/1_0_hard_colliders_ui.jpg)
+![1_1_hard_colliders_ui.jpg](/assets/screens/naturalis/1_1_hard_colliders_ui.jpg)
 
 ## Glute Hard Colliders
 
