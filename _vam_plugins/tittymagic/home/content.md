@@ -12,7 +12,7 @@ Make sure your frame rate is sufficiently high and synchronized with VAM's physi
 
 ## Basic Usage: Softness, Quickness and Mass
 
-These settings are intended as easy and intuitive ways to change how the breasts should behave. They adjust many different settings in the background, from physics parameter values and collider properties to how much of each morph value will be applied and how gravity affects breasts.
+These settings are intended as easy and intuitive ways to change how breasts should behave. They adjust many different settings in the background, from physics parameter values and collider properties to how much of each morph value will be applied and how gravity affects breasts.
 
 ### Softness
 
