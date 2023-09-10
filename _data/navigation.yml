@@ -98,8 +98,6 @@ naturalis_v1_1_with_children: &naturalis_v1_1_with_children
       url: /docs/naturalis/v1_1/clothing/
     - title: Collider Friction
       url: /docs/naturalis/v1_1/collider_friction/
-    - title: Gravity Simulation
-      url: /docs/naturalis/v1_1/gravity_simulation/
     - title: Saving and Loading Presets
       url: /docs/naturalis/v1_1/saving_and_loading_presets/
     - title: Info for Creators
