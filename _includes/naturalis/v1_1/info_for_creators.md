@@ -2,9 +2,9 @@
 
 ### Default Clothing Profile For Custom Item
 
-Clothing creators can include a default clothing adjustment profile for their clothing items inside the item's var package. This profile will be automatically applied when users use the clothing item. (Naturalis is not required as a dependency of the clothing var package, but is obviously required for the profile to be loaded.) See [Profile Locations](./clothing/#profile-locations).
+Clothing creators can include a default clothing adjustment profile for their clothing items inside the item's var package. This profile will be automatically applied when users use the clothing item. (Naturalis is not required as a dependency of the clothing var package, but is obviously required for the profile to be loaded.) See [Profile Locations](../clothing/#profile-locations).
 
-In addition, clothing creators should ensure their items are correctly tagged to ensure they are detected correctly by the plugin. See [Identified Items And Tagging](./clothing/#identified-items-and-tagging).
+In addition, clothing creators should ensure their items are correctly tagged to ensure they are detected correctly by the plugin. See [Identified Items And Tagging](../clothing/#identified-items-and-tagging).
 
 ## Looks
 
@@ -24,11 +24,11 @@ Physics parameters, morphs and collider properties are only designed to scale up
 
 These upper limits allow for breasts and glutes that would be considered extremely large in reality, but it does currently limit what kinds of characters are suitable for use with Naturalis.
 
-You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](./hard_colliders/).
+You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](../hard_colliders).
 
 ### Including Presets In a Look Release
 
-Since Naturalis allows for [saving presets for BootyMagic and TittyMagic](./saving_and_loading_presets/), you can include those presets in your own add-on packages.
+Since Naturalis allows for [saving presets for BootyMagic and TittyMagic](../saving_and_loading_presets/), you can include those presets in your own add-on packages.
 
 The correct way to do this is like with any other VAM resource - create a new folder in the resource type's  path with your author name, and another folder inside that with the resource name, then put the files in there. Then add the resource's folder when creating the package.
 

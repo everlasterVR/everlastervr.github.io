@@ -1,4 +1,4 @@
-**Gravity physics** is the adjustment of a few physics parameters based on the angle of the glute or breast joint relative to ground, i.e. relative to the direction of gravity. In addition, the [custom gravity force](./custom_gravity_force/) adds a different amount of weight to the joint in different poses.
+**Gravity physics** is the adjustment of a few physics parameters based on the angle of the glute or breast joint relative to ground, i.e. relative to the direction of gravity. In addition, the [custom gravity force](../custom_gravity_force/) adds a different amount of weight to the joint in different poses.
 
 <div class='video-container'>
   <iframe

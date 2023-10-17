@@ -25,7 +25,7 @@ Adjusting the physics: for example, increasing Fat Spring % affects all of the s
 
 ![1_1_clothing_ui_morphs.jpg](/assets/screens/naturalis/1_1_clothing_ui_morphs.jpg)
 
-The morph offsets allow you to shift the angle that is used for calculating morph values when the joint rotates left/right, up/down or moves in the in/out direction. This produces morphing without actually rotating or moving the joint. The idea is to primarily use the [forces](./clothing/#forces-hold--dampening). to physically move the breasts, and then fine tune the shape with the morph offsets. See also [morph transition timer](./clothing/#morph-transition-timer).
+The morph offsets allow you to shift the angle that is used for calculating morph values when the joint rotates left/right, up/down or moves in the in/out direction. This produces morphing without actually rotating or moving the joint. The idea is to primarily use the [forces](#forces-hold--dampening). to physically move the breasts, and then fine tune the shape with the morph offsets. See also [morph transition timer](#morph-transition-timer).
 
 The Reduce Size slider can be used to better match the clothed breast size to the naked breast size. It's intended to be used with clothing that fully covers the breasts.Toggle the item on and off to easily check if the breast size looks the same clothed and uncovered.
 
@@ -89,7 +89,7 @@ Multiple items will also each apply their own soft physics adjustments which get
 
 All of the adjustments are supported in VAM's triggers system, allowing e.g. other plugins like Timeline to set or animate the values. The parameters are available per item, and are registered for the current plugin session when the item is first enabled in the current plugin session.
 
-In addition, you can trigger the loading of a profile from a specified path, as well as [animate the transition to the target profile](./clothing/#target-profile-transition).
+In addition, you can trigger the loading of a profile from a specified path, as well as [animate the transition to the target profile](#target-profile-transition).
 
 ### Identified Items And Tagging
 
@@ -115,4 +115,4 @@ Built-in clothing items have default profiles included in the plugin var:
 
 ![1_1_clothing_builtin_profiles_ui.jpg](/assets/screens/naturalis/1_1_clothing_builtin_profiles_ui.jpg)
 
-These profiles are always available to be loaded on any item, allowing you to use e.g. the adjustment profile for Alphakini Bra as a starting point for a custom bra. However, the [covered soft physics area](./clothing/#soft-physics-on-covered-areas) is not applied from the profile in this case, you'll need to map the coverage for the custom item separately.
+These profiles are always available to be loaded on any item, allowing you to use e.g. the adjustment profile for Alphakini Bra as a starting point for a custom bra. However, the [covered soft physics area](#soft-physics-on-covered-areas) is not applied from the profile in this case, you'll need to map the coverage for the custom item separately.
