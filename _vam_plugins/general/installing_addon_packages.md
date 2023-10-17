@@ -6,4 +6,4 @@ sidebar:
   nav: docs
 ---
 
-{% include_relative content.md %}
+{% include general/installing_addon_packages.md %}

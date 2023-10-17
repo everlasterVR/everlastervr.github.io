@@ -46,7 +46,7 @@ Magnitude of the damper that reduces oscillation around the joint position targe
 
 Vertical target angle of the pectoral joint. Negative values pull breasts down, positive values push them up.
 
-The offset shifts the center around which the final angle is calculated based on chest angle (see [Breast Gravity](/docs/tittymagic/v5_2/breast_gravity/)).
+The offset shifts the center around which the final angle is calculated based on chest angle (see [Breast Gravity](../breast_gravity/)).
 
 ### Right/Left Angle Target
 

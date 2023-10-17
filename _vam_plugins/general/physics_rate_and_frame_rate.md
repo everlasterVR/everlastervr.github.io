@@ -8,4 +8,4 @@ sidebar:
   nav: docs
 ---
 
-{% include_relative content.md %}
+{% include general/physics_rate_and_frame_rate.md %}

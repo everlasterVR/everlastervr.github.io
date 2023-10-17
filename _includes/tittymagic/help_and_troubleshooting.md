@@ -20,7 +20,7 @@ Soft physics is also not supported on a male character.
 
 It's possible that hard collider sizes are out of proportion and incorrectly positioned. Hard colliders don't currently scale very well beyond breasts whose automatically estimated mass is 3.000 kg, and breasts that are particularly droopy or non-round in their base shape can also be problematic.
 
-Manually configuring collider sizes and positions in the [Configure Hard Colliders](/docs/tittymagic/v5_2/breast_hard_colliders/) window can help here.
+Manually configuring collider sizes and positions in the [Configure Hard Colliders](../breast_hard_colliders/) window can help here.
 
 ## Known Issues
 

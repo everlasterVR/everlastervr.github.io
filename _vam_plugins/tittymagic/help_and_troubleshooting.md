@@ -8,4 +8,4 @@ sidebar:
 parent_url: /docs/tittymagic/v5_2/
 ---
 
-{% include_relative content.md %}
+{% include tittymagic/help_and_troubleshooting.md %}

@@ -7,4 +7,4 @@ sidebar:
 parent_url: /docs/tittymagic/v5_2/
 ---
 
-{% include_relative content.md %}
+{% include tittymagic/directional_force_morphing.md %}

@@ -6,4 +6,4 @@ sidebar:
   nav: docs
 ---
 
-{% include_relative content.md %}
+{% include general/using_plugin_presets.md %}

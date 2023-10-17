@@ -11,4 +11,4 @@ sidebar:
   nav: docs_tittymagic
 ---
 
-{% include_relative content.md %}
+{% include tittymagic/home.md %}
