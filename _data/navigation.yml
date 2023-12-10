@@ -8,7 +8,7 @@ main:
 
 plugins_config:
   naturalis_v1_2: &naturalis_v1_2
-    title: Naturalis v1.2 (Beta)
+    title: Naturalis v1.2
     url: /docs/naturalis/v1_2/
   naturalis_v1_1: &naturalis_v1_1
     title: Naturalis v1.1
@@ -79,6 +79,8 @@ naturalis_v1_2_with_children: &naturalis_v1_2_with_children
       url: /docs/naturalis/v1_2/auto_upgrading/
     - title: Keybindings
       url: /docs/naturalis/v1_2/keybindings/
+    - title: User Preferences
+      url: /docs/naturalis/v1_2/user_preferences/
 
 naturalis_v1_1_with_children: &naturalis_v1_1_with_children
   <<: *naturalis_v1_1

@@ -6,7 +6,7 @@ These scripts make it easy to use the latest Naturalis version in a scene withou
 
 Add to a Person atom which has an existing older Naturalis instance.
 
-The script automatically removes the current Naturalis instance, adds Naturalis.dll from the var package the script is loaded from, and auto-applies the old instance's plugin parameters.
+The script automatically removes the current Naturalis instance, adds Naturalis.cslist from the var package the script is loaded from, and auto-applies the old instance's plugin parameters.
 
 This process preserves any triggers in the scene targeting Naturalis.
 
@@ -21,7 +21,7 @@ A few things to note:
 
 Add to a Person atom which has TittyMagic 5 on it.
 
-The script automatically removes TittyMagic instance, adds Naturalis.dll the var package the script is loaded from, and adapts the TittyMagic 5 parameters to Naturalis (see below). Triggers in the scene targeting TittyMagic 5 will be broken and need to be fixed manually.
+The script automatically removes TittyMagic instance, adds Naturalis.cslist the var package the script is loaded from, and adapts the TittyMagic 5 parameters to Naturalis (see below). Triggers in the scene targeting TittyMagic 5 will be broken and need to be fixed manually.
 
 - Physics parameter offsets are not applied, except for Angle Targets (the default physics values differ too much with Naturalis)
 - Like other physics parameter offsets, Mass Offset is not applied (mass calculation is different in Naturalis)

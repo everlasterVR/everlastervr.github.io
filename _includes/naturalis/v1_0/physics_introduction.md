@@ -22,7 +22,7 @@ Physics parameters are divided into joint physics parameters and soft physics pa
 | **In/Out Spring** | In/Out Spring pushes the glute joint towards its position target along the Z axis. |
 | **In/Out Damper** | In/Out Damper reduces oscillation around the joint position target along the Z axis. |
 | **Up/Down Angle Target** | Vertical target angle of the glute joint. Negative values pull glutes down, positive values push them up. |
-| **Left/Right Angle Target** | Horizontal target angle of the pectoral joint. A negative values pull glutes apart, positive values push them together. |
+| **Left/Right Angle Target** | Horizontal target angle of the pectoral joint. A negative value pulls glutes apart, positive values push them together. |
 
 ### Soft Physics Parameters
 

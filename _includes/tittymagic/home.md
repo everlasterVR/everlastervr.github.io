@@ -1,4 +1,4 @@
-Hub: <https://hub.virtamate.com/resources/tittymagic.4067/> (old versions: [version history](https://hub.virtamate.com/resources/tittymagic.4067/history))
+Virt-A-Mate Hub: <https://hub.virtamate.com/resources/tittymagic.4067/> (old versions: [version history](https://hub.virtamate.com/resources/tittymagic.4067/history))
 
 TittyMagic is made obsolete by [Naturalis](/docs/naturalis/) which includes BootyMagic and a newer version of TittyMagic in a single package.
 

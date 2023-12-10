@@ -26,14 +26,14 @@ Manually configuring collider sizes and positions in the [Configure Hard Collide
 
 | Status | Issue |
 |--------|-------|
-| TBD (Naturalis) | Hard collider sizes and positions are not adjusted for **Atom Scale** and **World Scale**. It's best to use 1.000 (or close to) for both. |
+| Fixed in Naturalis v1.2 | Hard collider sizes and positions are not adjusted for **Atom Scale** and **World Scale**. It's best to use 1.000 (or close to) for both. |
 | TBD (Naturalis) | **World Scale** is not taken into account when calculating physics parameter values. When World Scale is not 1.000, you can try fix physics manually by adjusting offsets for Breast Mass, Fat Collider Radius and Fat Distance Limit. |
 | TBD (Naturalis) | Adjusting **Gravity** in the Scene Misc settings is not currently taken into account - the Breast Gravity effect assumes normal gravity. |
-| TBD (Naturalis) | Adjusting **Breast Spring/Damper Multiplier** in a clothing item's settings has no effect while TittyMagic is active. Proper support for clothing-dependent breast physics is planned for a future version. |
-| TBD (Naturalis) | Hard colliders are unoptimized for female characters with **soft physics disabled**. This could be improved, but for now if you want good collision physics, enable soft physics. |
+| Implemented in Naturalis v1.1 | Adjusting **Breast Spring/Damper Multiplier** in a clothing item's settings has no effect while TittyMagic is active. Proper support for clothing-dependent breast physics is planned for a future version. |
 | No fix | While the plugin hides VaM's original physics settings in the F Breast Physics tabs, it's still possible to make changes to those settings with triggers, by loading presets or programmatically with other plugins. This might cause some physics settings to be incorrect until the next time the plugin calibrates physics. You can trigger calibration manually with the Recalibrate physics button. |
-| No fix | Male character physics is limited. The male geometry which does not support soft physics in VaM. Due to this limitation, dynamic morph adjustments are also less sophisticated than with female geometry. |
-| TBD (Naturalis) | **Futa** characters lack hard colliders. |
+| Implemented in Naturalis v1.1 | **Futa** character physics is limited. The male geometry does not support soft physics in VaM. Due to this limitation, dynamic morph adjustments are also less sophisticated than with female geometry. |
+| Implemented in Naturalis v1.1 | **Futa** characters lack hard colliders. |
+| Fixed in Naturalis v1.2 | Does not work on a disabled person atom |
 
 ## Plugin Compatibility
 

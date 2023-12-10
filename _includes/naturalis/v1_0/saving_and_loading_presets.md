@@ -1,4 +1,4 @@
-Presets specific to TittyMagic and BootyMagic can be saved and loaded in-plugin. The default paths for presets are:
+Presets specific to TittyMagic and BootyMagic can be saved and loaded in-plugin. The paths for presets are:
 
 |   | Path |
 | - | ---- |

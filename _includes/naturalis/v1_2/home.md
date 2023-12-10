@@ -1,4 +1,4 @@
-Virt-A-Mate Hub: <https://hub.virtamate.com/resources/naturalis-free.35101/> ([version history](https://hub.virtamate.com/resources/naturalis-free.35101/history))
+Virt-A-Mate Hub: <https://hub.virtamate.com/resources/naturalis.33647/> ([version history](https://hub.virtamate.com/resources/naturalis.33647/history))
 
 ## Getting Started
 
@@ -54,10 +54,16 @@ During calibration, mass is automatically calculated from an estimate of the vol
 
 ## Advanced Usage: Configuring Physics, Morphing and Collision
 
-The sub-pages of this documentation go into detail about how to adjust physics parameters, gravity physics, how morphing works, and how to optimize collision physics.
+The sub-pages of this documentation go into detail about the following topics:
+
+- how to adjust physics parameters
+- custom gravity and gravity-based physics adjustments
+- how morphing works
+- how to optimize collision physics
+- clothing item based adjustments to physics and morphs
 
 Since the plugin's default settings are carefully balanced to produce good results in most situations, it's easy to make the behaviour worse by changing the settings. However, since every user has different preferences, digging deeper into the settings can be essential for making the most out of the plugin.
 
 ## Additional Features
 
-There's also info on [managing presets](./saving_and_loading_presets/), and [info about looks, poses and scenes](./info_for_creators/).
+There's also a page about [managing presets](./saving_and_loading_presets/), and [information for creators](./info_for_creators/).

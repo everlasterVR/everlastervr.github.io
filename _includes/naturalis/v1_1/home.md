@@ -1,9 +1,9 @@
-Hub: <https://hub.virtamate.com/resources/naturalis.33647/> ([version history](https://hub.virtamate.com/resources/naturalis.33647/history))
+Virt-A-Mate Hub: <https://hub.virtamate.com/resources/naturalis-free.35101/> ([version history](https://hub.virtamate.com/resources/naturalis-free.35101/history))
 
 ## Getting Started
 
 1. [Install the package](/docs/general/installing_addon_packages/)
-2. Start VAM and add Naturalis.dll to a Person atom's Plugins tab. See also [Auto-Upgrading](./auto_upgrading/).
+2. Start VAM and add Naturalis.cslist to a Person atom's Plugins tab. See also [Auto-Upgrading](./auto_upgrading/).
 
 The plugin's default settings are intended to work well in most situations.
 

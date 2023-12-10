@@ -11,14 +11,11 @@ It changes the values of soft physics parameters on individual soft joints based
   </iframe>
 </div>
 
-The distortion visualization grid is only shown for the left glute or breast.
-
-> **Tip: Applying Only To Left Glute/Breast**<br/>
-> When this option is enabled, any changes to the local distortion values only apply to the left glute or breast, allowing you to compare the original behaviour with the changed behaviour side by side. The right glute or breast will use the default values for local distortion physics.
+The distortion visualization grid is only shown for the left glute/breast.
 
 ## Adjustable Parameters
 
-LDP works on the **Fat Spring**, **Fat Damper**, **Fat Mass**, **Fat Collider Radius**, **Fat Collider Friction**, **Fat Collider Depth**, and **Fat Distance Limit** parameters.
+LDP works on the **Fat Spring**, **Fat Damper**, **Fat Mass**, **Fat Distance Limit**, **Fat Collider Radius**, **Fat Collider Depth**, and **Fat Collider Friction** parameters.
 
 Each parameter has the following slider settings:
 

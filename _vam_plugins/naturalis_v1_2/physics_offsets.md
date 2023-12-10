@@ -7,4 +7,4 @@ sidebar:
 parent_url: /docs/naturalis/v1_2/
 ---
 
-{% include naturalis/v1_0/physics_offsets.md %}
+{% include naturalis/v1_2/physics_offsets.md %}

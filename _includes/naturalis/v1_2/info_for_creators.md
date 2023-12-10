@@ -20,11 +20,9 @@ For example, the built in *Breasts Shape 01* to *Breasts Shape 08* morphs all ex
 
 #### About Maximum Size
 
-Physics parameters, morphs and collider properties are only designed to scale up to the size limit that is defined by the maximum automatically calculated glute joint mass or breast joint mass.
+Physics parameters and morphs are only designed to scale up to a size that corresponds to a mass of 3 kg when mass is calculated automatically by the plugin.
 
-These upper limits allow for breasts and glutes that would be considered extremely large in reality, but it does currently limit what kinds of characters are suitable for use with Naturalis.
-
-You can go beyond this size limit, but the resulting behaviour might be problematic. The biggest issue is with breast hard colliders which get scaled out of proportion, so for breasts larger than the upper limit, you'll want to [manually adjust the hard collider properties](../hard_colliders).
+This upper limit allows for breasts and glutes that would be considered extremely large in reality, but it does still limit what kinds of characters are suitable for use with Naturalis. You can go beyond this size limit, but results may vary.
 
 ### Including Presets In a Look Release
 
@@ -70,10 +68,8 @@ On a related note, any kind of trigger that loads a pose should not be triggered
 
 By default, the scene is frozen during calibration, which stops all motion and sound. In some scenes, you might want to calibrate mid-scene while audio is playing. To do this:
 
-1. Go to the Plugin Settings section of Naturalis User Preferences from either TittyMagic or BootyMagic main UI
-2. Uncheck the **Calibration: Freeze Motion/Sound** toggle, and check the **Calibration: Pause Scene Animation** toggle:
-
-![1_0_calibration_options.jpg](/assets/screens/naturalis/1_0_calibration_options.jpg)
+1. Go to the Plugin Settings section of [Naturalis User Preferences](../user_preferences) from either TittyMagic or BootyMagic main UI
+2. Uncheck the **Calibration: Freeze Motion/Sound** toggle, and check the **Calibration: Pause Scene Animation** toggle
 
 Pausing scene animation during calibration allows audio sources in the scene to continue playing, but any animation other than scene animation (e.g. Timeline) must be stopped manually (i.e. with triggers in the scene) for the duration of the calibration, otherwise the calibration result will be incorrect.
 

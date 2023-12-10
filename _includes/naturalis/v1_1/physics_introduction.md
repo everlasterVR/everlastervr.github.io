@@ -23,7 +23,7 @@ Physics parameters are divided into joint physics parameters and soft physics pa
 | **In/Out Spring** | In/Out Spring pushes the glute joint towards its position target along the Z axis. |
 | **In/Out Damper** | In/Out Damper reduces oscillation around the joint position target along the Z axis. |
 | **Up/Down Angle Target** | Vertical target angle of the glute joint. Negative values pull glutes down, positive values push them up. |
-| **Left/Right Angle Target** | Horizontal target angle of the pectoral joint. A negative values pull glutes apart, positive values push them together. |
+| **Right/Left Angle Target** | Horizontal target angle of the glute joint. A negative value pulls glutes apart, positive values push them together. |
 
 ### Soft Physics Parameters
 
@@ -60,7 +60,7 @@ Physics parameters are divided into joint physics parameters and soft physics pa
 | **In/Out Spring** | In/Out Spring pushes the pectoral joint towards its position target along the Z axis. |
 | **In/Out Damper** | In/Out Damper reduces oscillation around the joint position target along the Z axis. |
 | **Up/Down Angle Target** | Vertical target angle of the pectoral joint. Negative values pull breasts down, positive values push them up. |
-| **Left/Right Angle Target** | Horizontal target angle of the pectoral joint. Negative values pull breasts apart, positive values push them together. |
+| **Right/Left Angle Target** | Horizontal target angle of the pectoral joint. Negative values pull breasts apart, positive values push them together. |
 | **Twist Angle Target** | Forward axis angle of the pectoral joint. The final value depends on the person's pose. The offset determines the max angle when the person is upright. The angle is inverted when upside down and zero when horizontal. |
 
 ### Soft Physics Parameters

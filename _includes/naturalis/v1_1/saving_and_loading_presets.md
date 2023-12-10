@@ -2,7 +2,7 @@ Presets specific to TittyMagic and BootyMagic can be saved and loaded in-plugin.
 
 ![1_1_plugin_presets.png](/assets/screens/naturalis/1_1_plugin_presets.jpg)
 
-The default paths for presets are:
+The paths for presets are:
 
 |   | Path |
 | - | ---- |
