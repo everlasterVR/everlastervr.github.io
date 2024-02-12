@@ -7,6 +7,9 @@ main:
     url: https://www.patreon.com/everlaster/membership
 
 plugins_config:
+  naturalis_v1_3: &naturalis_v1_3
+    title: Naturalis v1.3
+    url: /docs/naturalis/v1_3/
   naturalis_v1_2: &naturalis_v1_2
     title: Naturalis v1.2
     url: /docs/naturalis/v1_2/
@@ -43,6 +46,44 @@ plugins_config:
   other: &other
     title: Other
     url: /docs/other
+
+naturalis_v1_3_with_children: &naturalis_v1_3_with_children
+  <<: *naturalis_v1_3
+  children:
+    - title: Home
+      url: /docs/naturalis/v1_3/
+    - title: Physics Parameters
+      url: /docs/naturalis/v1_3/physics_parameters/
+    - title: Physics Offsets
+      url: /docs/naturalis/v1_3/physics_offsets/
+    - title: Custom Gravity Force
+      url: /docs/naturalis/v1_3/custom_gravity_force/
+    - title: Soft Physics Gradient
+      url: /docs/naturalis/v1_3/soft_physics_gradient/
+    - title: Local Distortion Physics
+      url: /docs/naturalis/v1_3/local_distortion_physics/
+    - title: Gravity Physics
+      url: /docs/naturalis/v1_3/gravity_physics/
+    - title: Directional Force Morphing
+      url: /docs/naturalis/v1_3/directional_force_morphing/
+    - title: Hard Colliders
+      url: /docs/naturalis/v1_3/hard_colliders/
+    - title: Clothing Adjustment Profiles
+      url: /docs/naturalis/v1_3/clothing/
+    - title: Collider Friction
+      url: /docs/naturalis/v1_3/collider_friction/
+    - title: Saving and Loading Presets
+      url: /docs/naturalis/v1_3/saving_and_loading_presets/
+    - title: Info for Creators
+      url: /docs/naturalis/v1_3/info_for_creators/
+    - title: About Calibration
+      url: /docs/naturalis/v1_3/about_calibration/
+    - title: Auto-Upgrading
+      url: /docs/naturalis/v1_3/auto_upgrading/
+    - title: Keybindings
+      url: /docs/naturalis/v1_3/keybindings/
+    - title: User Preferences
+      url: /docs/naturalis/v1_3/user_preferences/
 
 naturalis_v1_2_with_children: &naturalis_v1_2_with_children
   <<: *naturalis_v1_2
@@ -179,6 +220,7 @@ tittymagic_with_children: &tittymagic_with_children
       url: /docs/tittymagic/v5_2/help_and_troubleshooting/
 
 plugins: &plugins
+  - *naturalis_v1_3
   - *naturalis_v1_2
   - *naturalis_v1_1
   - *naturalis
@@ -192,7 +234,22 @@ plugins: &plugins
   # - *live_reload
   # - *other
 
+plugins_naturalis_v1_3: &plugins_naturalis_v1_3
+  - *naturalis_v1_3_with_children
+  - *naturalis_v1_2
+  - *naturalis_v1_1
+  - *naturalis
+  # - *var_license_filter
+  - *tittymagic
+  # - *joint_correct_ee
+  # - *float_param_randomizer_ee
+  # - *hair_let_loose
+  # - *mocap_switcher
+  # - *lumination
+  # - *live_reload
+
 plugins_naturalis_v1_2: &plugins_naturalis_v1_2
+  - *naturalis_v1_3
   - *naturalis_v1_2_with_children
   - *naturalis_v1_1
   - *naturalis
@@ -206,6 +263,7 @@ plugins_naturalis_v1_2: &plugins_naturalis_v1_2
   # - *live_reload
 
 plugins_naturalis_v1_1: &plugins_naturalis_v1_1
+  - *naturalis_v1_3
   - *naturalis_v1_2
   - *naturalis_v1_1_with_children
   - *naturalis
@@ -219,6 +277,7 @@ plugins_naturalis_v1_1: &plugins_naturalis_v1_1
   # - *live_reload
 
 plugins_naturalis: &plugins_naturalis
+  - *naturalis_v1_3
   - *naturalis_v1_2
   - *naturalis_v1_1
   - *naturalis_with_children
@@ -232,6 +291,7 @@ plugins_naturalis: &plugins_naturalis
   # - *live_reload
 
 plugins_tittymagic: &plugins_tittymagic
+  - *naturalis_v1_3
   - *naturalis_v1_2
   - *naturalis_v1_1
   - *naturalis
@@ -259,6 +319,14 @@ about: &about
 docs:
   - title: Plugins
     children: *plugins
+  - title: General
+    children: *general
+  - title: About
+    children: *about
+
+docs_naturalis_v1_3:
+  - title: Plugins
+    children: *plugins_naturalis_v1_3
   - title: General
     children: *general
   - title: About
