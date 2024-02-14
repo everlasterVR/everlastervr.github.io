@@ -1,0 +1,5 @@
+The primary purpose of calibration is to zero pose morphs around a calibrated center, so that deviation from that position will result in the correct amount of directional morphing. The position of that center is different for every glute or breast size and shape. As an example, if you decrease spring, breasts will hang lower, preventing upward morphing from taking effect correctly until you run the calibration which will zero the morph adjustments around the lower position.
+
+In addition, when softness or quickness is changed or when the base size or shape of breasts or glutes is changed, calibration is needed to apply changes to physics, collider properties and how morphs are adjusted.
+
+At the start of calibration, a standard pose is loaded, person collision is disabled, and any controls linked to some control on the person atom are unlinked. Then the plugin runs through the calibration, applies all physics parameters, and configures gravity and hard colliders for the given size and softness. Finally the pose before calibration is restored, collision is re-enabled, and previously linked controls are re-linked.

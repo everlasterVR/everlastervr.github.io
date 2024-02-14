@@ -10,12 +10,8 @@
 
 ## Glute Hard Colliders
 
-BootyMagic uses 8 hard colliders per glute. Normally in VAM, these are only enabled when soft physics is off, but in BootyMagic they are always enabled to enhance the collision physics.
-
-![1_2_glute_hard_colliders.jpg](/assets/screens/naturalis/1_2_glute_hard_colliders.jpg)
+{% include naturalis/v1_2/hard_colliders/glute_hard_colliders.md %}
 
 ## Breast Hard Colliders
 
-Breast hard colliders are the same five colliders per breast as those used by VAM normally. These are always enabled.
-
-![1_2_breast_hard_colliders.jpg](/assets/screens/naturalis/1_2_breast_hard_colliders.jpg)
+{% include naturalis/v1_2/hard_colliders/breast_hard_colliders.md %}

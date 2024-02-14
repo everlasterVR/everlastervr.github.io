@@ -1,16 +1,3 @@
-Virt-A-Mate Hub: <https://hub.virtamate.com/resources/naturalis.33647/> ([version history](https://hub.virtamate.com/resources/naturalis.33647/history))
-
-## Getting Started
-
-1. [Install the package](/docs/general/installing_addon_packages/)
-2. Start VAM and add Naturalis.cslist to a Person atom's Plugins tab. See also [Auto-Upgrading](./auto_upgrading/).
-
-The plugin's default settings are intended to work well in most situations.
-
-Make sure your frame rate is sufficiently high and synchronized with VAM's physics rate - see [Physics Rate and Frame Rate](/docs/general/physics_rate_and_frame_rate/). Configure your setup correctly and you will get more out of the plugin!
-
-## Basic Usage: Softness, Quickness and Mass
-
 The softness, quickness and joint mass offset sliders are intended as easy and intuitive ways to change how breasts and glutes should behave. They adjust many different settings in the background, affecting the overall physics, collision and morphing.
 
 ### Softness
@@ -51,19 +38,3 @@ During calibration, mass is automatically calculated from an estimate of the vol
     title='Automatic mass, Mass offset'>
   </iframe>
 </div>
-
-## Advanced Usage: Configuring Physics, Morphing and Collision
-
-The sub-pages of this documentation go into detail about the following topics:
-
-- how to adjust physics parameters
-- custom gravity and gravity-based physics adjustments
-- how morphing works
-- how to optimize collision physics
-- clothing item based adjustments to physics and morphs
-
-Since the plugin's default settings are carefully balanced to produce good results in most situations, it's easy to make the behaviour worse by changing the settings. However, since every user has different preferences, digging deeper into the settings can be essential for making the most out of the plugin.
-
-## Additional Features
-
-There's also a page about [managing presets](./saving_and_loading_presets/), and [information for creators](./info_for_creators/).
