@@ -1,6 +1,6 @@
 There's a lot of ground to cover here, and because of the complexity of the physics system, customizing the physics at the individual parameter level can be complicated and time consuming.
 
-Changes often have effects that require other changes to be made because the parameterssrelate to other parameters in important ways, e.g. increasing mass might mean breasts become too droopy, and you might then need to fix that in one of multiple ways: by increasing spring, reducing gravity or adjusting the base angles or the angle targets. However, this page doesn't go into detail on these relationships or on adjusting specific parameters, but rather provides an overview of the functionalities that are available.
+Changes often have effects that require other changes to be made because the parameters relate to other parameters in important ways, e.g. increasing mass might mean breasts become too droopy, and you might then need to fix that in one of multiple ways: by increasing spring, reducing gravity or adjusting the base angles or the angle targets. However, this page doesn't go into detail on these relationships or on how to adjust specific parameters, but rather provides an overview of the available functionalities.
 
 ## Basic: Physics Offsets
 

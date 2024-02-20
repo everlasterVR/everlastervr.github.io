@@ -23,15 +23,15 @@ The plugin calculates mass automatically by estimating the actual glute/breast v
 
 ### Advanced Soft Physics
 
-These features add advanced functionality and behavior to the soft physics mesh. Their behavior can be customized further in the Physics tab - more information on the [Advanced Soft Physics](../advanced_soft_physics/) page. Short explanations of these features:
+These features add advanced functionality and behavior to the soft physics mesh. Their behavior can be customized further in the Physics tab - more information on the [Advanced Soft Physics](./advanced_soft_physics/) page. Short explanations of these features:
 
 - **Local Distortion Physics** enables soft physics parameters to adjust dynamically based on local skin compression and stretching (distances of individual soft physics joints from its neighboring joints)
   - Example: Fat Spring increases as skin is compressed, causing the local area to resist further compression
 - **Depth Physics** enables soft physics parameters to adjust dynamically based on the local skin depth (distances of individual soft physics joints from the center of the glute/breast)
   - Example: Fat Spring increases as skin is pushed in by collision, causing the local area to become more rigid
 - **Mesh Pressure** expands the overall glute/breast soft physics mesh with an internal pressure force in response to skin being pushed towards the center - this prevents the mesh from losing volume when grabbed or collided with, and helps produce more realistic shapes when collision is occurring
-- **Collider Friction** allows the skin to become more slippery automatically when skin gloss is increased, see the [Collider Friction](../collider_friction/) page for more info
+- **Collider Friction** allows the skin to become more slippery automatically when skin gloss is increased, see the [Collider Friction](./collider_friction/) page for more info
 
 ### Presets
 
-The plugin has a preset system for handling in-plugin presets for BootyMagic and TittyMagic separately. See the [Saving and Loading Presets](../saving_and_loading_presets/) page for more info.
+The plugin has a preset system for handling in-plugin presets for BootyMagic and TittyMagic separately. See the [Saving and Loading Presets](./saving_and_loading_presets/) page for more info.

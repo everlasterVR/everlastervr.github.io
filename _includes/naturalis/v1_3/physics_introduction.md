@@ -6,7 +6,7 @@ Based on this, physics parameters are divided into joint physics parameters and 
 
 ![UI_physics_tab.jpg](/assets/screens/naturalis/v1_3/UI_physics_tab.jpg)
 
-The values of physics parameters are calculated automatically during calibration. The calibrated value depends on the model's glute/breast size and the sliders in the main window (softness, quickness and mass offset). For more precise customization, see [Physics Customization](../physics_customization/) which goes over offsetting the parameters directly, and additional options for joint physics and soft physics. Parameter values can be affected by clothing items [clothing adjustment profiles](../clothing/).
+The values of physics parameters are calculated automatically during calibration. The calibrated value depends on the model's glute/breast size and the sliders in the main window (softness, quickness and mass offset). For more precise customization, see [Physics Customization](../physics_customization/) which goes over offsetting the parameters directly, and additional options for joint physics and soft physics. Parameter values can be affected by [clothing adjustment profiles](../clothing/).
 
 ## Joint Physics Parameters
 

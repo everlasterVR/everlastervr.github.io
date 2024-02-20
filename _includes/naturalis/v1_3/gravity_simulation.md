@@ -6,6 +6,4 @@ This allows easily checking how things would look if you changed the person's po
 
 The gravity simulation directions and the stop function are also available as triggerable actions in case you want to use them outside of the plugin UI.
 
-If hidden, the menu stays hidden only for the current plugin session. To set it to hide by default, uncheck this option in [Naturalis User Preferences](../user_preferences/):
-
-![UI_gravity_simulation.jpg](/assets/screens/naturalis/v1_3/UI_prefs_gravity_simulation.jpg)
+If hidden, the menu stays hidden only for the current plugin session. To set it to hide by default, uncheck that option in [Naturalis User Preferences](../user_preferences/).
