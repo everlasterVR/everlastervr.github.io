@@ -2,7 +2,7 @@
 title: "Naturalis v1.3: Saving and Loading Presets"
 permalink: /docs/naturalis/v1_3/saving_and_loading_presets/
 excerpt: ""
-toc: false
+toc: true
 sidebar:
   nav: docs_naturalis_v1_3
 parent_url: /docs/naturalis/v1_3/
