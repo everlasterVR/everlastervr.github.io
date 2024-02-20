@@ -8,4 +8,4 @@ sidebar:
 parent_url: /docs/naturalis/v1_3/
 ---
 
-{% include naturalis/v1_1/clothing.md %}
+{% include naturalis/v1_2/clothing.md %}

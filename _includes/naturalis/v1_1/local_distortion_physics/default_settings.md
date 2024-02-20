@@ -66,7 +66,7 @@ Fat Collider Depth increases with stretching. This makes colliding objects bury 
 | Stretching Effect | 0.30 |
 | Stretching Sensitivity | 0.50 |
 
-Fat Collider Friction increases slightly with stretching in order to reduce slipping a when an object is pushing against the mesh.
+Fat Collider Friction increases slightly with stretching in order to reduce slipping when an object is pushing against the mesh.
 
 ### Fat Distance Limit
 

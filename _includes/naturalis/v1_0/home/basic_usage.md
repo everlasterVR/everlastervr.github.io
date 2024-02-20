@@ -2,7 +2,7 @@ The softness, quickness and joint mass offset sliders are intended as easy and i
 
 ### Softness
 
-Softness affects how easily breasts and glutes deform and jiggly they are. The effect of softness is much more noticeable when soft physics is enabled.
+Softness affects how easily breasts and glutes deform and how jiggly they are. The effect of softness is much more noticeable when soft physics is enabled.
 
 <div class='video-container'>
   <iframe

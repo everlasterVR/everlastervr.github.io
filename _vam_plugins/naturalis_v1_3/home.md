@@ -7,4 +7,4 @@ sidebar:
   nav: docs_naturalis_v1_3
 ---
 
-{% include naturalis/v1_1/home.md %}
+{% include naturalis/v1_3/home.md %}

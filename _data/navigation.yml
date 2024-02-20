@@ -54,18 +54,14 @@ naturalis_v1_3_with_children: &naturalis_v1_3_with_children
       url: /docs/naturalis/v1_3/
     - title: Physics Parameters
       url: /docs/naturalis/v1_3/physics_parameters/
-    - title: Physics Offsets
-      url: /docs/naturalis/v1_3/physics_offsets/
-    - title: Custom Gravity Force
-      url: /docs/naturalis/v1_3/custom_gravity_force/
-    - title: Soft Physics Gradient
-      url: /docs/naturalis/v1_3/soft_physics_gradient/
-    - title: Local Distortion Physics
-      url: /docs/naturalis/v1_3/local_distortion_physics/
-    - title: Gravity Physics
-      url: /docs/naturalis/v1_3/gravity_physics/
+    - title: Physics Customization
+      url: /docs/naturalis/v1_3/physics_customization/
+    - title: Advanced Soft Physics
+      url: /docs/naturalis/v1_3/advanced_soft_physics/
     - title: Directional Force Morphing
       url: /docs/naturalis/v1_3/directional_force_morphing/
+    - title: Gravity Simulation
+      url: /docs/naturalis/v1_3/gravity_simulation/
     - title: Hard Colliders
       url: /docs/naturalis/v1_3/hard_colliders/
     - title: Clothing Adjustment Profiles

@@ -14,16 +14,16 @@ Physics parameters and morphs are only designed to scale up to a size that corre
 
 This upper limit allows for breasts and glutes that would be considered extremely large in reality, but it does still limit what kinds of characters are suitable for use with Naturalis. You can go beyond this size limit, but results may vary.
 
-### Including Presets In a Look Release
+### Including Presets In A Look Release
 
 Since Naturalis allows for [saving presets for BootyMagic and TittyMagic](../saving_and_loading_presets/), you can include those presets in your own add-on packages.
 
 The correct way to do this is like with any other VAM resource - create a new folder in the resource type's  path with your author name, and another folder inside that with the resource name, then put the files in there. Then add the resource's folder when creating the package.
 
-For example, a TittyMagic preset called "extra_soft" for a look "PrettyGirl" by creator "VamAuthor" should be saved to
+For example, a TittyMagic preset called "extra_soft" for a look "PrettyModel" by creator "VamAuthor" should be saved to
 
 ```
-Saves/PluginData/Naturalis/TittyMagicPresets/VamAuthor/PrettyGirl/extra_soft.json
+Saves/PluginData/Naturalis/TittyMagicPresets/VamAuthor/PrettyModel/extra_soft.json
 ```
 
-And when packaging the look, VamAuthor would include the directory *Saves/PluginData/Naturalis/TittyMagicPresets/VamAuthor/PrettyGirl* in the package.
+And when packaging the look, VamAuthor would include the directory *Saves/PluginData/Naturalis/TittyMagicPresets/VamAuthor/PrettyModel* in the package.

@@ -1,6 +1,6 @@
-The sub-pages of this documentation go into detail about the following topics:
+The sub-pages of this documentation go into more detail about:
 
-- how to adjust physics parameters
+- how to fine tune physics parameters
 - custom gravity and gravity-based physics adjustments
 - how morphing works
 - how to optimize collision physics

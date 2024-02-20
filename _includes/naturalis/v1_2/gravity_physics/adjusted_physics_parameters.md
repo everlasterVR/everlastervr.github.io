@@ -2,7 +2,7 @@
 
 | Physics Parameter | Description |
 |-------------------|-------------|
-| Rotation Spring | Spring is at its base value when upright, e.g. when the person is standing up. When leaning back, left, right or when upside down, spring is reduced. When leaning forward (gravity applies towards the hip), spring is increased.
+| Rotation Spring | Spring is at its base value when upright, e.g. when the person is standing up. When leaning back, left, right or when upside down, spring is reduced. When leaning forward (gravity applies towards the hip), spring is increased. |
 | In/Out Spring | In/Out Spring decreases when leaning forward or back. |
 | Up/Down Angle Target | Up/Down Angle Target deacreases when upright and increases when upside down. |
 | Left/Right Angle Target | Left/Right Angle Target pulls the glutes sideways towards the direction of gravity. |
